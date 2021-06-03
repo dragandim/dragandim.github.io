@@ -1,12 +1,6 @@
 Dragan Dimitrijevic
 ============
 
--------------------     ----------------------------
-1 MyAddress                        dragandm@gmail.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
-
 Education
 ---------
 
