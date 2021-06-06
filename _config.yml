@@ -4,7 +4,7 @@ markdown: kramdown
 livereload: true
 
 # URL of the Site
-url: 'dragan.dk'
+url: 
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -49,7 +49,7 @@ author-image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAHCCAYAAAAUx4k4
 # 60 Words About the Author
 author-about: I have a great deal of interest in working with Open Source technologies. Integrations and application development are the areas in which I spent most of my professional time. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/dragandim
 
 # SASS
 sass:
