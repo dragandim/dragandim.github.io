@@ -1,7 +1,7 @@
 ---
-title: Rich Relevance Eloqua
+title: Få tiden tilbage
 layout: post
-post-image: "/assets/images/luana-azevedo-vV-L0Zc_po8-unsplash.jpg"
+post-image: "/assets/images/ahmad-ossayli-laJW5pp-6Yw-unsplash.jpg"
 description: A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:
