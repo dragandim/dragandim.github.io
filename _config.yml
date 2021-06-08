@@ -1,4 +1,3 @@
-# WhatATheme
 markdown: kramdown
 
 livereload: true
@@ -15,7 +14,7 @@ description: Online Portfolio
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Freelancer, Software Development, AWS Cloud, Nodejs
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -68,7 +67,8 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+# permalink: "post/:title"
+permalink: pretty
 
 # Compress
 compress_html:

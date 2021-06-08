@@ -13,14 +13,17 @@ layout: compress
     <section class="hero is-fullheight" id="blog">
         <div class="hero-body">
             <div class="container">
-                {% include blog2page-heading.html %}
+              {% include workpage-heading.html %}
             </div>
         </div>
         <div id="results-container"></div>
-        <!--Blog Cards Section-->
-        {% for post in site.posts %}
-            {% include blog2-card.html %}
+{% for tag in site.tags %}
+   {% if tag[0] == "work" %}
+        {% for post in tag[1] %}
+            {% include work-card.html %}
         {% endfor %}
+   {% endif %}
+{% endfor %}
         </div>
     </section>
     <br>

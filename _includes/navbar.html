@@ -25,13 +25,14 @@
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">About</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">Contact</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                   href="{{site.url}}{{site.baseurl}}/blog">Blog</a>
-                <a class="navbar-item {% if page.layout == 'blog2' %}is-active{% endif %}"
-                   href="{{site.url}}{{site.baseurl}}/blog2">Projects </a>
-                {% include dropdown.html %}
+                <a class="navbar-item {% if page.layout == 'work' %}is-active{% endif %}"
+                   href="{{site.url}}{{site.baseurl}}/work">Work</a>
+                <a class="navbar-item {% if page.layout == 'project' %}is-active{% endif %}"
+                   href="{{site.url}}{{site.baseurl}}/project">Projects </a>
+                {% comment %}
+                  {% include dropdown.html %}
+                {% endcomment %}
             </div>
-
         </div>
     </div>
 </nav>

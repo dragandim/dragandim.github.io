@@ -1,5 +1,5 @@
 ---
-title: Project
 layout: project
+title: Projects
 ---
 
