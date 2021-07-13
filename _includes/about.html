@@ -33,6 +33,18 @@
                             </a>
                         </div>
                     </div>
+                    <br>
+                    <div class="container columns is-centered">
+                     {% for skill in site.data.skills %}
+                        <span class="tag is-success is-light column">{{ skill.name }}</span>
+                      {% endfor %}
+                    </div>
+                    <br>
+                    <div class="container columns is-centered">
+                     {% for framework in site.data.frameworks %}
+                        <span class="tag is-info is-light column">{{ framework.name }}</span>
+                      {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>

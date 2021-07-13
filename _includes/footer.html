@@ -1,7 +1,11 @@
 <footer id="footer">
     <!--Footer Button-->
-    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
-        <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
+    <div class="container has-text-centered">
+        <button class="button is-rounded is-dark" onclick="window.scroll(0,0)">
+            <span class="icon is-large">
+                <i class="fas fa-arrow-up"></i>
+            </span>
+        </button>
     </div>
     <!--Footer Main Section-->
     <div class="has-background-grey-darker">
@@ -10,7 +14,7 @@
             <div class="column has-text-left-desktop has-text-centered-mobile">
                 <a href="{{site.url}}{{site.baseurl}}/#about">
                     <div class="columns">
-                        <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
+                        <div class="column is-on e-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
                             <figure class="image is-64x64">
                                 <img class="is-rounded" src="{{site.author-image}}">
                             </figure>
@@ -18,7 +22,7 @@
                         <div class="column is-marginless">
                             <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
                             <div class="content has-text-grey">
-                                <p>{{site.author-footer | truncate: 75 }}</p>
+                                <p>{{site.author-footer | truncate: 60 }}</p>
                             </div>
                         </div>
                     </div>
@@ -28,14 +32,14 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
+                {% for sitepage in site.html_pages offset: 4 limit:2 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
                     <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
                 </li>
                 {% endunless %}
                 {% endfor %}
-                 </div>
+            </div>
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
