@@ -1,0 +1,23 @@
+- name: Information and Communication Technology
+  institution: Engineering College of Copenhagen
+  location: Ballerup
+  start: 2003
+  end: 2006
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+
+- name: DU3 Modul 5, Prøve i Dansk 3
+  institution: K.I.S.S
+  location: Copenhagen
+  start: 2004
+  end: 2005
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+
+- name: Datamatician (Information Technology)
+  institution: Niels Brock
+  location: Copenhagen
+  start: 2001
+  end: 2003
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:

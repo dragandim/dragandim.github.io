@@ -1,0 +1,98 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+    <body class="has-navbar-fixed-top">
+    {% include navbar.html %}
+
+        <div class="main-container">
+            <div class="container">
+            {% include workpage-heading.html %}
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                                    {% assign post1 = site.tags | first %}
+                                    {% assign post = post1[1][0] %}
+                                    {% include work-experience-card.html %}
+                            <img class="image" src="/assets/images/alex-iby-xVPaGwmde0A-unsplash.jpg"></img>
+                        </article>
+                    </div>
+
+                    <div class="tile is-vertical is-8">
+                        <div class="tile">
+                            <div class="tile is-parent">
+                                <article class="tile is-child box">
+                                    {% assign post = post1[1][1] %}
+                                    {% include work-experience-card.html %}
+                                </article>
+                            </div>
+
+                            <div class="tile is-parent is-vertical">
+                                <article class="tile is-child box">
+                                    {% assign post = post1[1][2] %}
+                                    {% include work-experience-card.html %}
+                                </article>
+                                <article class="tile is-child box">
+                                    {% assign post = post1[1][3] %}
+                                    {% include work-experience-card.html %}
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child box">
+                                    {% assign post = post1[1][4] %}
+                                    {% include work-experience-card.html %}
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                                    {% assign post = post1[1][5] %}
+                                    {% include work-experience-card.html %}
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-4">
+                        <article class="tile is-child box">
+                                    {% assign post = post1[1][6] %}
+                                    {% include work-experience-card.html %}
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-4">
+                        <article class="tile is-child box">
+                                    {% assign post = post1[1][7] %}
+                                    {% include work-experience-card.html %}
+                        </article>
+                    </div>
+                </div>
+{% comment %} 
+
+            {% include workpage-heading.html %}
+
+            {% for tag in site.tags %}
+              {% if tag[0] == "work" %}
+                {% for post in tag[1] %}
+                  {% include work-card.html %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+
+{% endcomment %}
+            </div>
+        </div>
+        <br>
+
+        <!--Footer begins here-->
+    {% include footer.html %}
+    </body>
+
+</html>

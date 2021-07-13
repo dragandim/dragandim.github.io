@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+      {% include head.html %}
+    </head>
+
+    <body class="has-navbar-fixed-top">
+      {% include navbar.html %}
+        
+        <div class="main-container">
+            <div class="container">
+            {% include projectpage-heading.html %}
+              <!-- Project Cards Section-->
+              {% for tag in site.tags %}
+                {% if tag[0] == "project" %}
+                  {% for post in tag[1] %}
+                  {% include project-card.html %}
+                {% endfor %}
+              {% endif %}
+
+            {% endfor %}
+            </div>
+        </div>
+        <br>
+      <!--Footer begins here-->
+    {% include footer.html %}
+    </body>
+
+</html>

@@ -1,0 +1,66 @@
+- name: Nodejs
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+  description: Some Skill descipriton
+  level: 90
+- name: Git
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+  description: Some Skill descipriton
+  level: 80
+- name: Linux
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 80
+- name: Angular
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 70
+- name: Scrum
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 60
+- name: PHP
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 70
+- name: Javascript
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 80
+- name: Ruby
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 50
+- name: MySQL
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 60
+- name: Typescript
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 60
+- name: Apache
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 60
+- name: Qt/C++
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+- name: HTML5/CSS3
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 80
+
+
