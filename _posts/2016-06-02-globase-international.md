@@ -7,8 +7,7 @@ startDate: 'Jul 2016'
 endDate: 'Dec 2017'
 layout: work-experience
 post-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: Globase second position as a Chief Technology Officer
-  headlines, quotes and codes will be represented.
+description: Cheif Technology Officer at Globase
 skills:
 - Nodejs
 - AWS

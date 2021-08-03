@@ -12,8 +12,8 @@ folder: mydoc
 ## The list of skills comes here 
 
 {% for skill in site.data.skills %}
-  {{ product.name }}
-{% endfor %}
+  * {{ skill.name }}
+{% endfor %}xxxx
 
 Skills comminging here. The sidebar uses the [Navgoco jQuery plugin](https://github.com/tefra/navgoco) as its basis. Why not use Bootstrap? Navgoco provides a few features that I couldn't find in Bootstrap:
 
@@ -21,7 +21,7 @@ Skills comminging here. The sidebar uses the [Navgoco jQuery plugin](https://git
 * Navgoco inserts an `active` class based on the navigation option keeping the accordion open.
 * Navgoco includes the expand and collapse.
 
-In short, the sidebar has some complex logic here. I've integrated Navgoco's features with the sidebar.html and sidebar data files to build the sidebar. It's probably the most impressive part of this theme. (Other themes usually aren't focused on creating hierarchies of pages, but this kind of hierarchy is important in a documentation site.)
+In short, the sidebar has some complex logic here. I've integrated Navgoco's features with the sidebar.html and sidebar data files to build the sidebar. It's probably the most impressive part of thierarchy is important in a documentation site.)
 
 You can see that the `external_url` is a condition that applies a different formatting. Although this feature is available, I recommend putting any external navigation links in the top navigation bar instead of the side navigation bar.
 

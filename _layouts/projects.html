@@ -20,10 +20,9 @@ layout: compress
                 {% if tag[0] == "project" %}
                   {% for post in tag[1] %}
                   {% include project-card.html %}
-                {% endfor %}
-              {% endif %}
-
-            {% endfor %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
             </div>
         </div>
         <br>

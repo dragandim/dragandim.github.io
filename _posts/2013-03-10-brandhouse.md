@@ -5,10 +5,8 @@ place: Copenhagen / Odense
 layout: work-experience
 startDate: 'Mar 2013'
 endDate: 'Mar 2014'
-layout: work-experience
 post-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: A sample post to show how the content will look and how will different
-  headlines, quotes and codes will be represented.
+description: Software Developer at Brandhouse.
 skills:
 - PHP
 - Apache
@@ -16,13 +14,12 @@ skills:
 - Linux
 - Javascript
 - HTML5 / CSS3
+
 tags:
 - work
 categories:
 - work-experience
 ---
 
-# Role
-Developed on a platform for generating graphical elements for print design
-# Publicator
+At Brandhouse, I had a chance of working on a platform (Publicator) made for graphic design and print. The tasks where including integration with data sources, implementing new feature requests and collecting requirement specification from a customer.
 

@@ -12,7 +12,7 @@
         <div class="container columns">
             <!--Name Section-->
             <div class="column has-text-left-desktop has-text-centered-mobile">
-                <a href="{{site.url}}{{site.baseurl}}/#about">
+                <a href="https://www.tenfoldpath.com">
                     <div class="columns">
                         <div class="column is-on e-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
                             <figure class="image is-64x64">
@@ -20,9 +20,12 @@
                             </figure>
                         </div>
                         <div class="column is-marginless">
-                            <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
+                            <h5 class="has-text-primary">
+                                <i class="fa fa-pagelines"></i> Tenfold Path
+                            </h5>
+                            <h5 class="has-text-grey-lighter">Dragan Dimitrijevic</h5>
                             <div class="content has-text-grey">
-                                <p>{{site.author-footer | truncate: 60 }}</p>
+                                <p> dragan@tenfoldpath.com </p>
                             </div>
                         </div>
                     </div>
@@ -31,24 +34,30 @@
 
             <!--Link Section-->
             <div class="column has-text-white">
-                <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 limit:2 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
-                <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
-                </li>
-                {% endunless %}
+                <h3>Recent Workplaces</h3>
+                {% for tag in site.tags %}
+                  {% if tag[0] == "work" %}
+                    {% for post in tag[1] limit: 3 %}
+                    <li>
+                        <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                    </li>
+                    {% endfor %}
+                  {% endif %}
                 {% endfor %}
             </div>
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
                 <h3>Recent Projects</h3>
-                {% for post in site.posts offset: 0 limit:2 %}
-                <li>
-                    <a href="{{post.url | absolute_url}}">{{post.title}}</a>
-                </li>
-                {% endfor %}
+              {% for tag in site.tags %}
+                {% if tag[0] == "project" %}
+                  {% for post in tag[1] limit: 3 %}
+                  <li>
+                      <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                  </li>
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
             </div>
         </div>
     </div>
