@@ -1,21 +1,20 @@
-<div class="columns has-text-centered">
-    <!-- <div class="column is-one is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
-         <div class="image is-3by1 has-background-black-bis" style="background-image: url({{post.post-image}});"></div>
-         </div> -->
-
-    <a href="{{post.url | absolute_url}}">
-        <div class="column has-text-left-desktop has-text-left-tablet">
-            <h1 class="subtitle is-size-4-touch">{{post.company}} - {{post.title}}</h1>
+{% assign workplace = post.company | remove: " " | remove: "&" | remove: "(" | remove: ")" | remove: "/"%}
+<div class="modal modal-fx-3dSlit" id="{{workplace}}">
+    <div class="modal-background"></div>
+    <div class="modal-card modal-content">
+        <header class="modal-card-head">
+            <p class="modal-card-title">{{post.company}} - {{post.title}}</p>
+            <button class="delete modal-button-close" data-workplace="{{workplace}}"aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
             <div class="content has-text-grey">
-                {{ post.content | truncate: 300  }}
+                {{ post.content }}
             </div>
-            <p class="has-text-info">{{post.startDate}} - {{post.endDate}}</p>
-            <h3 class="subtitle is-7 is-size-5-touch has-text-grey"> Techstack ({{post.skills.size}}) </h3>
-
+            <h3 class="subtitle is-7 is-size-5-touch has-text-grey"> Skills ({{post.skills.size}}) </h3>
             <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                 {% for skill in post.skills limit: 3 %}
+                 {% for skill in post.skills %}
                         <span class="tag is-success is-light column">{{ skill }}</span>
                  {% endfor %}
                     </div>
@@ -26,6 +25,36 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button is-pulled-right modal-button-close" data-workplace="{{workplace}}">Close</button>
+        </footer>
+    </div>
+</div>
+
+<div class="columns">
+    <div class="column has-text-left-desktop has-text-left-tablet">
+        <h1 class="subtitle is-size-4-touch">{{post.company}} - {{post.title}}</h1>
+        <div class="content has-text-grey">
+                {{ post.content | truncate: 300  }}
         </div>
-    </a>
+        <div class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <p class="has-text-info">{{post.startDate}} - {{post.endDate}}</p>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <h3 class="subtitle is-7 is-size-5-touch has-text-grey"> {{post.skills.size}} skills</h3>
+                </div>
+            </div>
+        </div>
+        <button class="button is-primary is-small modal-button" data-workplace="{{workplace}}" aria-haspopup="true">
+            <span class="icon">
+                <i class="fas fa-window-maximize"></i>
+            </span>Open
+        </button>
+        <a href="{{post.url | absolute_url}}" class="button is-primary is-light is-small is-pulled-right modal-button" aria-haspopup="true">Read</a>
+    </div>
 </div>

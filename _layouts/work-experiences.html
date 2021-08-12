@@ -26,7 +26,7 @@ layout: compress
 
                     <div class="tile is-vertical is-8">
                         <div class="tile">
-                            <div class="tile is-parent">
+                            <div class="tile is-parent is-vertical">
                                 <article class="tile is-child box">
                                     {% assign post = post1[1][1] %}
                                     {% include work-experience-card.html %}
@@ -90,6 +90,20 @@ layout: compress
             </div>
         </div>
         <br>
+        <script>
+         $(".modal-button").click(function() {
+             var workplace = $(this).data("workplace");
+             console.log('Open', workplace);
+             $("#" + workplace).addClass("is-active");
+         });
+
+         $(".modal-button-close").click(function() {
+             var workplace = $(this).data("workplace");
+             console.log('Close', workplace);
+             $(".modal").removeClass("is-active");
+         });
+        </script>
+
 
         <!--Footer begins here-->
     {% include footer.html %}

@@ -1,9 +1,7 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: Curriculum Vitae
+  version: 3.0
   folders:
 
   - title:
@@ -19,18 +17,13 @@ entries:
       output: pdf
       type: frontmatter
 
-  # - title: Overview
-  #   output: web, pdf
-  #   folderitems:
-
-  #   - title: Get started
-  #     url: /index.html
-  #     output: web, pdf
-  #     type: homepage
-
   - title: Curriculum Vitae
     output: web, pdf
     folderitems:
+
+    - title: About
+      url: /mydoc_about.html
+      output: web, pdf
 
     - title: Skills
       url: /mydoc_skills.html
@@ -41,20 +34,8 @@ entries:
       output: web, pdf
 
     - title: Projects
-      url: /mydoc_work_projects.html
+      url: /mydoc_projects.html
       output: web, pdf
-
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
-      output: web, pdf
-
-    # - title: Install Jekyll on Mac
-    #   url: /mydoc_install_jekyll_on_mac.html
-    #   output: web, pdf
-
-    # - title: Install Jekyll on Windows
-    #   url: /mydoc_install_jekyll_on_windows.html
-    #   output: web, pdf
 
   - title: Authoring
     output: web, pdf
@@ -64,23 +45,3 @@ entries:
       url: /mydoc_pages.html
       output: web, pdf
 
-  - title: Navigation
-    output: web, pdf
-
-    folderitems:
-    - title: Sidebar navigation
-      url: /mydoc_sidebar_navigation.html
-      output: web, pdf
-
-  # - title: Tag archives
-  #   output: web
-  #   folderitems:
-
-  #   - title: Tag archives overview
-  #     url: /mydoc_tag_archives_overview.html
-  #     output: web
-
-  #     subfolders:
-  #     - title: Tag archive pages
-  #       output: web
-  #       subfolderitems:
