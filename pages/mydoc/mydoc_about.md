@@ -1,28 +1,30 @@
 ---
-title: About Me
+title: About
 tags: [getting_started, troubleshooting]
 keywords:
-summary: "Basic profile description"
+summary: 
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
 ---
 
-## About 
+## Introduction 
+
+{{site.data.about.description-0}}
+
 {{site.data.about.description-1}}
 
 {{site.data.about.description-2}}
 
 ## Nationality
-
-`Serbian`
+Serbian
 
 ## Citizenship
-
-`Danish`
+Danish
 
 ## Languages
-
-`Serbian, English, Danish`
+- Serbian
+- English
+- Danish
 
 {% include links.html %}

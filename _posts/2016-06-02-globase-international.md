@@ -33,10 +33,8 @@ withing the same hosting provider but which powered all the services neccessary 
 from one hosting location to another at QSC. This meant that most of the underlying services which powered 
 platforms had to be restarted and reconfigured, from database servers, load balancers, web servers.
 
-# Roles
+List of responsibilities
 * Managing development team (Agile SCRUM)
-I had a  managed a team of 
-
 * Maintaining in house platforms and custom solutions
 * Pre-sales and requirement specification
 * Maintaining hardware in QSC 
@@ -45,5 +43,3 @@ I had a  managed a team of
 Another big undertaking was the migrattion of the V2 platform from QSC to a new cloud setup at Mailup hosting center in Cremona. 
 Even though we could not complete the migration due to the high level of complexity and unforeseeable issues, we were able to implement 
 continuous deployment on the existing setup, since the V2 platform was fully virtualized in a development environment.
-
-

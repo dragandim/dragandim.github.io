@@ -17,12 +17,12 @@
 
 <script>
  Prince.addScriptFunc("datestamp", function() {
-     return "Document last generated: {{ site.time | date: '%B %d, %Y' }}";
+     return "Last generated: {{ site.time | date: '%B %d, %Y' }}";
  });
 </script>
 
 <script>
  Prince.addScriptFunc("guideName", function() {
-     return "{{site.print_title}} Resume";
+     return "{{site.print_title}} {{site.print_document}}";
  });
 </script>

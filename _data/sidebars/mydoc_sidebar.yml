@@ -25,10 +25,6 @@ entries:
       url: /mydoc_about.html
       output: web, pdf
 
-    - title: Skills
-      url: /mydoc_skills.html
-      output: web, pdf
-
     - title: Work Experinces
       url: /mydoc_work_experiences.html
       output: web, pdf
@@ -37,11 +33,7 @@ entries:
       url: /mydoc_projects.html
       output: web, pdf
 
-  - title: Authoring
-    output: web, pdf
-
-    folderitems:
-    - title: Pages
-      url: /mydoc_pages.html
+    - title: Skills
+      url: /mydoc_skills.html
       output: web, pdf
 

@@ -17,5 +17,5 @@ The second release of the application was dealing with the in-app ticket purchas
 
 You can read more about this project for which Norlid won the Danish Digital Award in the category ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/)
 
-# Techstack
+## Techstack
 `Ionic, Angular, Nodejs, serverless, AWS, Lambda, RDS, S3, VPC, CloudFront`

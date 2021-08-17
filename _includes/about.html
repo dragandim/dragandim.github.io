@@ -1,49 +1,73 @@
-<section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
+
+<section class="hero is-fullheight has-background-white-ter" id="about">
+
     <div class="hero-body">
         <div class="container">
+            <br/>
             <div class="columns">
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.data.about.image}}" alt="{{site.author-name}}">
-                    </figure>
+                <div class="column is-one-third">
+                    <div class="box">
+                        <figure class="image">
+                            <img class="" src="{{site.data.about.image}}" alt="{{site.author-name}}">
+                        </figure>
+                    </div>
                 </div>
-                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <h2 class="subtitle"> {{site.data.about.ocupation}}</h2>
-                    <p>{{site.data.about.description-1}}</p>
-                    <br>
-                    <p>{{site.data.about.description-2}}</p>
-                    <br>
-                    <div class="container columns is-centered">
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
-                                Me</a>
-                            </a>
-                        </div>
-                        <!-- <div>
-                             <a href="{{site.url}}{{site.baseurl}}/blog"
-                             class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Blog</a>
-                             </a>
-                             </div> -->
-                        <div>
-                            <a href="{{site.url}}{{site.baseurl}}/projects"
-                               class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Projects</a>
-                            </a>
-                        </div>
+                <div class="column">
+                    <div class="content">
+                        <h2 class="subtitle is-2"> {{site.data.about.ocupation}}</h2>
+
+                        <h5 class="subtitle is-5"> {{site.data.about.name}}</h5>
+                        <h6 class="subtitle is-6"> 
+                            <span class="icon-text">
+                                <span class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span>{{site.data.about.email}}</span>
+                            </span>                        
+                            <span class="icon-text">
+                                <span class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                                <span>{{site.data.about.mobile}}</span>
+                            </span>                    
+                        </h6>
+                        <div class="block">{{site.data.about.description-0}}</div>
+                        <div class="block">{{site.data.about.description-1}}</div>
+                        <div class="block">{{site.data.about.description-2}}</div>
                     </div>
-                    <br>
-                    <div class="container columns is-centered">
-                     {% for skill in site.data.skills %}
-                        <span class="tag is-success is-light column">{{ skill.name }}</span>
-                      {% endfor %}
-                    </div>
-                    <br>
-                    <div class="container columns is-centered">
-                     {% for framework in site.data.frameworks %}
-                        <span class="tag is-info is-light column">{{ framework.name }}</span>
-                      {% endfor %}
-                    </div>
+
                 </div>
             </div>
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-two-thirds has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                    <br/>
+                    <h4 class="subtitle is-4"> Skills </h4>
+                    {% for skill in site.data.skills %}
+                    <h6 class="subtitle is-6"> {{skill.name}}</h6>
+                    <progress class="progress is-small" value="{{skill.level }}" max="100">{{skill.level }}%</progress>
+                    {% endfor %}
+                    <br>
+
+                    <h4 class="subtitle is-4"> Frameworks </h4>
+                    <div class="container columns is-centered ">
+                     {% for framework in site.data.frameworks %}
+                        <span class="tag is-info  column">{{ framework.name }}</span>
+                      {% endfor %}
+                    </div>
+                    <br>
+
+                    <h4 class="subtitle is-4"> AWS </h4>
+                    <div class="container columns is-centered">
+                     {% for aws in site.data.aws %}
+                        <span class="tag is-warning column">{{ aws.name }}</span>
+                      {% endfor %}
+                    </div>
+                    <br>
+
+                </div>
+                <div class="column"></div>
+            </div>
+
         </div>
 </section>

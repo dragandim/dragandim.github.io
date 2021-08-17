@@ -5,10 +5,13 @@ body {
     font-size:14px;
 }
 .nav ul li a {border-top:0px; background-color:transparent; color: #808080; }
+.nav ul li {
+    padding: 5px 0px 5px 0px;
+}
 #navig a[href] {color: #595959 !important;}
 table .table {max-width:650px;}
 
-#navig li.sectionHead {font-weight: bold; font-size: 18px; color: #595959 !important; }
+#navig li.sectionHead {font-weight: bold; font-size: 20px; color: #595959 !important; }
 #navig li {font-weight: normal; }
 
 #navig a[href]::after { content: leader(".") target-counter(attr(href), page); }
@@ -50,6 +53,15 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
     margin-bottom:25px;
 }
 
+.printOcupation {
+    line-height: 20pt;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: -.5px;
+    color: #708a93 !important;
+    margin-bottom: 10px;
+}
+
 .printSubtitle {
     font-size: 19pt;
     color: #cccccc !important;
@@ -58,6 +70,7 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
     letter-spacing: -.5px;
     margin-bottom:20px;
 }
+
 .printTitleArea hr {
     color: #999999 !important;
     height: 2px;
@@ -65,13 +78,9 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
 }
 
 .printTitleImage {
-    max-width:300px;
-    margin-bottom:200px;
-}
-
-
-.printTitleImage {
-    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #navig {
@@ -127,7 +136,7 @@ body.frontmatter {counter-reset: page 1}
         content: counter(page, lower-roman);
     }
     @bottom-left {
-        content: "dragandm@gmail.com";   
+        content: "dragan@tenfoldpath.com";
     }
 }
 

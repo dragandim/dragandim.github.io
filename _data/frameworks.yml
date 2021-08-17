@@ -1,44 +1,33 @@
 - name: Express
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  link:
-  description: Some Skill descipriton
-- name: Ionic
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  link:
-  description: Some Skill descipriton
+  url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  level: 80
 - name: Angular
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
-- name: Sails
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
-- name: Loopback	
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Angular Material	
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 70
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: Ionic
+  url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  level: 70
+# - name: Sails
+#   level: 70
+#   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Serverless	
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: TypeORM
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 60
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Sequelize
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Laravel
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 70
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Codeigniter
-  link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+  level: 70
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: Jekyll
+  level: 60
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
