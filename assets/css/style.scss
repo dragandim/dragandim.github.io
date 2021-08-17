@@ -5,30 +5,7 @@
 
 /* New styles */
 .main-container {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.95) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.95) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.90) 100%);
-/*
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-*/
-    &::before {
-/*
-        background-image: url('/assets/images/quino-al-c64UTXEETuk-unsplash.jpg');
-*/
-        background-image: url('/assets/images/christoph-theisinger-9PPYa3LK6II-unsplash.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        position: absolute;
-        opacity: 0.25;
-        content: "";
-    }
+    background: #EEEEEE;
 
     .container {
         padding: 2.2rem;
