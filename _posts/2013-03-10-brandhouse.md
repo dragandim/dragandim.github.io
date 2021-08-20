@@ -5,7 +5,7 @@ place: Copenhagen / Odense
 layout: work-experience
 startDate: 'Mar 2013'
 endDate: 'Mar 2014'
-post-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
+image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
 description: Software Developer at Brandhouse.
 skills:
 - PHP

@@ -1,7 +1,7 @@
 ---
 title: Event App
 layout: project
-post-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
+image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
 description: A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:
@@ -32,4 +32,14 @@ the Custom Data Object in Eloqua.
 Application can handle participant attendance, different flows (invitation, registration, unregistration) and waiting list for booked events.
 
 ## Techstack
-`Sails, Nodejs, jQuery, Docker, AWS, ECS, RDS, VPC, CloudFront`
+
+<span class="label label-default">Nodejs</span>
+<span class="label label-info">Sails</span>
+<span class="label label-info">jQuery</span>
+<span class="label label-info">Docker</span>
+<span class="label label-warning">AWS</span>
+<span class="label label-warning">ECS</span>
+<span class="label label-warning">RDS</span>
+<span class="label label-warning">S3</span>
+<span class="label label-warning">VPC</span>
+<span class="label label-warning">CloudFront</span>

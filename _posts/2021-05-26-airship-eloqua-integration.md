@@ -1,13 +1,25 @@
 ---
 title: Airship
 layout: project
-post-image: "/assets/images/airship-uss-macon.jpeg"
+image: "/assets/images/airship-uss-macon.jpeg"
 description: Airship Eloqua Integration Project
 tags:
 - project
 - integration
 categories:
 - project
+techstack:
+- Angular
+- Nodejs
+- serverless
+- AWS
+- Lambda
+- RDS
+- SQS
+- S3
+- VPC
+- API Gateway
+- CloudFront
 ---
 
 This integration project was about making Eloqua send push messages using multi channel messaging platform [Airship](https://www.airship.com/). The integration was covering following use cases:
@@ -18,4 +30,16 @@ This integration project was about making Eloqua send push messages using multi 
 * Collect activity response
 
 ## Techstack
-`Angular, Nodejs, serverless, AWS, Lambda, RDS, SQS, S3, VPC, API Gateway, CloudFront`
+
+<span class="label label-default">Nodejs</span>
+<span class="label label-info">Angular</span>
+<span class="label label-info">serverless</span>
+<span class="label label-warning">AWS</span>
+<span class="label label-warning">Lambda</span>
+<span class="label label-warning">RDS</span>
+<span class="label label-warning">SQS</span>
+<span class="label label-warning">S3</span>
+<span class="label label-warning">VPC</span>
+<span class="label label-warning">API Gateway</span>
+<span class="label label-warning">CloudFront</span>
+

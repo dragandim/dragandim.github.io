@@ -1,7 +1,7 @@
 ---
 title: Få tiden tilbage
 layout: project
-post-image: "/assets/images/faa-tiden-tilbage-overview.png"
+image: "/assets/images/faa-tiden-tilbage-overview.png"
 description: Få tiden tilbage project
 tags:
 - project
@@ -18,4 +18,16 @@ The second release of the application was dealing with the in-app ticket purchas
 You can read more about this project for which Norlid won the Danish Digital Award in the category ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/)
 
 ## Techstack
-`Ionic, Angular, Nodejs, serverless, AWS, Lambda, RDS, S3, VPC, CloudFront`
+
+<span class="label label-default">Nodejs</span>
+<span class="label label-info">Ionic</span>
+<span class="label label-info">Angular</span>
+<span class="label label-info">serverless</span>
+<span class="label label-warning">AWS</span>
+<span class="label label-warning">Lambda</span>
+<span class="label label-warning">RDS</span>
+<span class="label label-warning">SQS</span>
+<span class="label label-warning">S3</span>
+<span class="label label-warning">VPC</span>
+<span class="label label-warning">API Gateway</span>
+<span class="label label-warning">CloudFront</span>

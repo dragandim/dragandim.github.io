@@ -8,6 +8,22 @@ permalink: mydoc_about.html
 folder: mydoc
 ---
 
+## Personal Information
+
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-6">
+    <img  src="{{site.data.about.image}}" alt="{{site.data.about.name}}">
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-6">
+     <h4> {{site.data.about.name}} </h4>
+     <span> <i class="fa fa-envelope-o"></i> </span> {{site.data.about.email}} <br>
+     <span> <i class="fa fa-phone"></i> </span> {{site.data.about.mobile}} <br>
+     <span> <i class="fa fa-flag"></i> </span> Serbian <br>
+     <span> <i class="fa fa-globe"></i> </span> Danish <br>
+     <span> <i class="fa fa-birthday-cake"></i> </span> 30.11.1978 <br>
+  </div>
+</div>
+
 ## Introduction 
 
 {{site.data.about.description-0}}
@@ -16,14 +32,8 @@ folder: mydoc
 
 {{site.data.about.description-2}}
 
-## Nationality
-Serbian
-
-## Citizenship
-Danish
-
 ## Languages
-- Serbian
+- Serbian (native)
 - English
 - Danish
 

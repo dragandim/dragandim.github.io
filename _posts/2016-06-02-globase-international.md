@@ -6,7 +6,7 @@ layout: work-experience
 startDate: 'Jul 2016'
 endDate: 'Dec 2017'
 layout: work-experience
-post-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
+image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
 description: Cheif Technology Officer at Globase
 skills:
 - Linux

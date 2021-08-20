@@ -25,6 +25,10 @@ entries:
       url: /mydoc_about.html
       output: web, pdf
 
+    - title: Education
+      url: /mydoc_education.html
+      output: web, pdf
+
     - title: Work Experinces
       url: /mydoc_work_experiences.html
       output: web, pdf
