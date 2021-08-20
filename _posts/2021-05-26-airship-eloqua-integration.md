@@ -8,18 +8,6 @@ tags:
 - integration
 categories:
 - project
-techstack:
-- Angular
-- Nodejs
-- serverless
-- AWS
-- Lambda
-- RDS
-- SQS
-- S3
-- VPC
-- API Gateway
-- CloudFront
 ---
 
 This integration project was about making Eloqua send push messages using multi channel messaging platform [Airship](https://www.airship.com/). The integration was covering following use cases:
@@ -33,7 +21,7 @@ This integration project was about making Eloqua send push messages using multi 
 
 <span class="label label-default">Nodejs</span>
 <span class="label label-info">Angular</span>
-<span class="label label-info">serverless</span>
+<span class="label label-primary">serverless</span>
 <span class="label label-warning">AWS</span>
 <span class="label label-warning">Lambda</span>
 <span class="label label-warning">RDS</span>

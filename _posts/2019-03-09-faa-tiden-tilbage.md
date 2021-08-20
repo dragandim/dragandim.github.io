@@ -22,7 +22,7 @@ You can read more about this project for which Norlid won the Danish Digital Awa
 <span class="label label-default">Nodejs</span>
 <span class="label label-info">Ionic</span>
 <span class="label label-info">Angular</span>
-<span class="label label-info">serverless</span>
+<span class="label label-primary">serverless</span>
 <span class="label label-warning">AWS</span>
 <span class="label label-warning">Lambda</span>
 <span class="label label-warning">RDS</span>

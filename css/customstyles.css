@@ -593,7 +593,7 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
+h3 {color: #248ec2; font-weight:normal; font-size:136%;}
 h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 
 .alert, .callout {
@@ -740,9 +740,9 @@ a.dropdown-toggle.otherProgLangs {
     color: #f7e68f !important;
 }
 */
-
+/*
 span.muted {color: #666;}
-
+*/
 table code {background-color: transparent;}
 
 .highlight .err {
@@ -819,10 +819,11 @@ h3.codeExplanation {
     color: black;
     line-height: 24px;
 }
-
+/*
 span.soft {
     color: #c0c0c0;
 }
+*/
 
 .githubEditButton {
     margin-bottom:7px;
@@ -997,13 +998,6 @@ p.post-meta time {
     margin-right: 0px;
 }
 
-span.label.label-default {
-    background-color: gray;
-}
-
-span.label.label-primary {
-    background-color: #f0ad4e;
-}
 .col-lg-12 .nav li a {background-color: white}
 
 
@@ -1060,8 +1054,10 @@ table thead th code.highlighter-rouge {
 }
 
 #userMap {
+/*
     overflow-x: auto;
     overflow-y: auto;
+*/
     padding: 20px;
     min-width: 770px;
 }

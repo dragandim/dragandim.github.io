@@ -36,7 +36,7 @@ Application can handle participant attendance, different flows (invitation, regi
 <span class="label label-default">Nodejs</span>
 <span class="label label-info">Sails</span>
 <span class="label label-info">jQuery</span>
-<span class="label label-info">Docker</span>
+<span class="label label-primary">Docker</span>
 <span class="label label-warning">AWS</span>
 <span class="label label-warning">ECS</span>
 <span class="label label-warning">RDS</span>

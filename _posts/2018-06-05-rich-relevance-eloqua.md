@@ -29,7 +29,7 @@ Enagage was content in the sense of product advertizement, banner content etc.
 
 <span class="label label-default">Nodejs</span>
 <span class="label label-info">Angular</span>
-<span class="label label-info">serverless</span>
+<span class="label label-primary">serverless</span>
 <span class="label label-warning">AWS</span>
 <span class="label label-warning">Lambda</span>
 <span class="label label-warning">RDS</span>
