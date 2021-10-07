@@ -7,6 +7,13 @@ tags:
 - project
 categories:
 - project
+aws: 
+- Lambda
+- RDS
+- S3
+- VPC
+- API Gateway
+- CloudFront
 ---
 
 "Få tiden tilbage" was an interesting projects that took almost 6 month to complete. The client was a public transpaoration copmany (DSB) and the concept was focusing on bringing back value
@@ -17,17 +24,39 @@ The second release of the application was dealing with the in-app ticket purchas
 
 You can read more about this project for which Norlid won the Danish Digital Award in the category ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/)
 
-## Techstack
+### Techstack
+{% if site.pdf_sidebar == "mydoc_sidebar" %}
+<span class="label label-default">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
+</span>
+<span class="label label-info">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.ionic-image}}"> Ionic
+</span>
+<span class="label label-info">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
+</span>
+<span class="label label-primary">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
+</span>
 
-<span class="label label-default">Nodejs</span>
-<span class="label label-info">Ionic</span>
-<span class="label label-info">Angular</span>
-<span class="label label-primary">serverless</span>
-<span class="label label-warning">AWS</span>
-<span class="label label-warning">Lambda</span>
-<span class="label label-warning">RDS</span>
-<span class="label label-warning">SQS</span>
-<span class="label label-warning">S3</span>
-<span class="label label-warning">VPC</span>
-<span class="label label-warning">API Gateway</span>
-<span class="label label-warning">CloudFront</span>
+<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">
+{% for aws in page.aws %}
+<span class="label label-warning"> {{aws}} </span>
+{% endfor %}
+
+{% else %}
+
+<div class="tags are-medium">
+   <span class="tag is-primary is-light"> Nodejs</span>
+   <span class="tag is-primary is-light"> Ionic</span>
+   <span class="tag is-primary is-light"> Angular</span>
+   <span class="tag is-primary is-light"> serverless</span>
+</div>
+
+<div class="tags are-medium">
+   {% for aws in page.aws %}
+   <span class="tag is-warning is-light">{{ aws }}</span>
+   {% endfor %}
+</div>
+
+{% endif %}

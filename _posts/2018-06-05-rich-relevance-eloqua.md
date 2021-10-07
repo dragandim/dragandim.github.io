@@ -9,6 +9,13 @@ tags:
 - integration
 categories:
 - project
+aws: 
+- Lambda
+- RDS
+- S3
+- VPC
+- API Gateway
+- CloudFront
 ---
 
 Thias project was an Eloqua application using Rich Relevance Customer Experience and Personalization Platform.
@@ -19,22 +26,43 @@ as email get opened.
 
 There were two kinds of content types that could be integrated, related products and content promotion. 
 
-## Recommend
+### Recommend
+Recommend content comes here...
 
-
-## Engage
+### Engage
 Enagage was content in the sense of product advertizement, banner content etc.
 
-## Techstack
+### Techstack
 
-<span class="label label-default">Nodejs</span>
-<span class="label label-info">Angular</span>
-<span class="label label-primary">serverless</span>
-<span class="label label-warning">AWS</span>
-<span class="label label-warning">Lambda</span>
-<span class="label label-warning">RDS</span>
-<span class="label label-warning">S3</span>
-<span class="label label-warning">VPC</span>
-<span class="label label-warning">API Gateway</span>
-<span class="label label-warning">CloudFront</span>
+{% if site.pdf_sidebar == "mydoc_sidebar" %}
+<span class="label label-default">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
+</span>
+<span class="label label-info">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
+</span>
+<span class="label label-primary">
+    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
+</span>
+
+<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">
+{% for aws in page.aws %}
+<span class="label label-warning"> {{aws}} </span>
+{% endfor %}
+
+{% else %}
+
+<div class="tags are-medium">
+   <span class="tag is-primary is-light"> Nodejs</span>
+   <span class="tag is-primary is-light"> Angular</span>
+   <span class="tag is-primary is-light"> serverless</span>
+</div>
+
+<div class="tags are-medium">
+   {% for aws in page.aws %}
+<span class="tag is-warning is-light">{{ aws }}</span>
+   {% endfor %}
+</div>
+
+{% endif %}
 

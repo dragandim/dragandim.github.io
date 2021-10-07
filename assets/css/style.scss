@@ -365,7 +365,7 @@ a.navbar-item.is-active {
     }
 
     .tag {
-        margin: 0.15rem auto;
+        /*margin: 0.15rem auto;*/
     }
     .content {
         ol, ul, blockquote {
@@ -406,4 +406,9 @@ a.navbar-item.is-active {
             display: inline-block;
         }
     }
+}
+
+.tech-badge{
+    width: 40px; 
+    height: 40px;
 }
