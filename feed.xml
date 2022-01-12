@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-12T20:01:56+00:00</updated><id>/feed.xml</id><title type="html">Dragan Dimitrijevic</title><subtitle>Online Portfolio</subtitle><entry><title type="html">Airship</title><link href="/project/2021/05/26/airship-eloqua-integration/" rel="alternate" type="text/html" title="Airship" /><published>2021-05-26T00:00:00+00:00</published><updated>2021-05-26T00:00:00+00:00</updated><id>/project/2021/05/26/airship-eloqua-integration</id><content type="html" xml:base="/project/2021/05/26/airship-eloqua-integration/">&lt;p&gt;This integration project was about making Eloqua send push messages, using multi channel messaging platform &lt;a href=&quot;https://www.airship.com/&quot;&gt;Airship&lt;/a&gt;. 
+The integration was covering following use cases:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Send push message from campaign canvas (scheduled, in-app)&lt;/li&gt;
+  &lt;li&gt;Send push message from a segment (batch)&lt;/li&gt;
+  &lt;li&gt;Send push message on form post&lt;/li&gt;
+  &lt;li&gt;Import devices to Eloqua&lt;/li&gt;
+  &lt;li&gt;Collect response activity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When working in campaign canvans view, a markeeter can choose an Airship component (cloud action) and drag it onto the campaign canvas. 
+In just a few clicks, a marketeer can authenticate, choose a mobile app, select a message template (configured in Airship) and choose
+android or ios as target platforms. If necessary, a message could be scheduled or send as an emediate puah. Once everything is saved, 
+the campaign is ready to send push message to all the conacts that pass through the action step.&lt;/p&gt;
+
+&lt;p&gt;Besides sending via campaign canvas, a marketeer can choose to send push message to a whole segment in a segment view. Once the 
+criteria for the segmentation is defined and saved, the Airship integrated GUI can be slided out and the configuration
+steps can take place. As in the previous scenario, the configuration process is the same, however behind the scenes the difference is that segment push is 
+a one time sendout to all the segment members, while in the ongoing campaigns the messages are send to passing contacts.
+The big difference here is that in the first scenario, the integration backend recieves contact payload, whereas in the second
+the contact payload has to be fetched from Eloqua.&lt;/p&gt;
+
+&lt;p&gt;Appart from sending push messages, the Airship integration also manages the import of Airship devices into Eloqua and collects response activity. 
+Devices are stored in Custom Data Objects, while response data are stored as External Activities. Both are used in segmentation process
+and in order to create more complex flows based on user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;techstack&quot;&gt;Techstack&lt;/h3&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   &lt;span class=&quot;tag is-info is-light&quot;&gt; Nodejs&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Angular&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; serverless&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;Lambda&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;RDS&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;SQS&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;S3&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;VPC&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;API Gateway&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;CloudFront&lt;/span&gt;
+   
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="eloqua" /><category term="integration" /><summary type="html">This integration project was about making Eloqua send push messages, using multi channel messaging platform Airship. The integration was covering following use cases: Send push message from campaign canvas (scheduled, in-app) Send push message from a segment (batch) Send push message on form post Import devices to Eloqua Collect response activity When working in campaign canvans view, a markeeter can choose an Airship component (cloud action) and drag it onto the campaign canvas. In just a few clicks, a marketeer can authenticate, choose a mobile app, select a message template (configured in Airship) and choose android or ios as target platforms. If necessary, a message could be scheduled or send as an emediate puah. Once everything is saved, the campaign is ready to send push message to all the conacts that pass through the action step. Besides sending via campaign canvas, a marketeer can choose to send push message to a whole segment in a segment view. Once the criteria for the segmentation is defined and saved, the Airship integrated GUI can be slided out and the configuration steps can take place. As in the previous scenario, the configuration process is the same, however behind the scenes the difference is that segment push is a one time sendout to all the segment members, while in the ongoing campaigns the messages are send to passing contacts. The big difference here is that in the first scenario, the integration backend recieves contact payload, whereas in the second the contact payload has to be fetched from Eloqua. Appart from sending push messages, the Airship integration also manages the import of Airship devices into Eloqua and collects response activity. Devices are stored in Custom Data Objects, while response data are stored as External Activities. Both are used in segmentation process and in order to create more complex flows based on user interaction. Techstack Nodejs Angular serverless Lambda RDS SQS S3 VPC API Gateway CloudFront</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/airship-uss-macon.jpeg" /><media:content medium="image" url="/assets/images/airship-uss-macon.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Software Engineer</title><link href="/work-experience/2020/01/04/freelancer/" rel="alternate" type="text/html" title="Software Engineer" /><published>2020-01-04T00:00:00+00:00</published><updated>2020-01-04T00:00:00+00:00</updated><id>/work-experience/2020/01/04/freelancer</id><content type="html" xml:base="/work-experience/2020/01/04/freelancer/">&lt;p&gt;In January 2020 I decided to embark on a freelance journey. 
+Its been a great learning experince so far :-).&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">In January 2020 I decided to embark on a freelance journey. Its been a great learning experince so far :-).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/Nordlid_logo_white_2019-300x50.png" /><media:content medium="image" url="/assets/images/Nordlid_logo_white_2019-300x50.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Få tiden tilbage</title><link href="/project/2019/03/09/faa-tiden-tilbage/" rel="alternate" type="text/html" title="Få tiden tilbage" /><published>2019-03-09T00:00:00+00:00</published><updated>2019-03-09T00:00:00+00:00</updated><id>/project/2019/03/09/faa-tiden-tilbage</id><content type="html" xml:base="/project/2019/03/09/faa-tiden-tilbage/">&lt;p&gt;“Få tiden tilbage” was an interesting projects that took almost 6 month to complete. The client was a public transpaoration copmany (DSB) and the concept was focusing on bringing back value
+ to the passangeres who experince dealays, due to the maintenance work done on the railways.&lt;/p&gt;
+
+&lt;p&gt;The first release of the application was managing journeys, where a passenger is able to check in on the start of the journey, and checkout on the end destination, earning a certain amount of minutes based on the rules defined for that specific route. Every journey route had a defined award, and every journey was adding to the total of the credits saved.&lt;/p&gt;
+
+&lt;p&gt;Once the saved credits reached over a certain limit, the users were able to use those credits to make an in-app ticket purchase. In the second release of the application, users 
+where able to choose from a specific set of destinations, select a route that they can afford, purchase and save the ticket for later use. The tickets with the QR codes where 
+complied to DSB scanners so that they could be checked for validation while traveling in the trains.&lt;/p&gt;
+
+&lt;p&gt;For this project, Nordlid has recieved the Danish Digital Award in the category &lt;a href=&quot;https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/&quot;&gt;“Digital Activation”&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;techstack&quot;&gt;Techstack&lt;/h3&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   &lt;span class=&quot;tag is-info is-light&quot;&gt; Nodejs&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Ionic&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Angular&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; serverless&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;Lambda&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;RDS&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;S3&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;VPC&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;API Gateway&lt;/span&gt;
+   
+   &lt;span class=&quot;tag is-warning is-light&quot;&gt;CloudFront&lt;/span&gt;
+   
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="campaign" /><summary type="html">“Få tiden tilbage” was an interesting projects that took almost 6 month to complete. The client was a public transpaoration copmany (DSB) and the concept was focusing on bringing back value to the passangeres who experince dealays, due to the maintenance work done on the railways. The first release of the application was managing journeys, where a passenger is able to check in on the start of the journey, and checkout on the end destination, earning a certain amount of minutes based on the rules defined for that specific route. Every journey route had a defined award, and every journey was adding to the total of the credits saved. Once the saved credits reached over a certain limit, the users were able to use those credits to make an in-app ticket purchase. In the second release of the application, users where able to choose from a specific set of destinations, select a route that they can afford, purchase and save the ticket for later use. The tickets with the QR codes where complied to DSB scanners so that they could be checked for validation while traveling in the trains. For this project, Nordlid has recieved the Danish Digital Award in the category “Digital Activation” Techstack Nodejs Ionic Angular serverless Lambda RDS S3 VPC API Gateway CloudFront</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/faa-tiden-tilbage-overview.png" /><media:content medium="image" url="/assets/images/faa-tiden-tilbage-overview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Rich Relevance</title><link href="/project/2018/06/05/rich-relevance-eloqua/" rel="alternate" type="text/html" title="Rich Relevance" /><published>2018-06-05T00:00:00+00:00</published><updated>2018-06-05T00:00:00+00:00</updated><id>/project/2018/06/05/rich-relevance-eloqua</id><content type="html" xml:base="/project/2018/06/05/rich-relevance-eloqua/">&lt;p&gt;The objective of this project was to integrate Rich Relevance Customer Experience and Personalization Platform as a standard Eloqua application. The content personalization was implemented using products Recommend and Engage. The main objective was to 
+integrate personalized content into Email Templates by using ‘Cloud Content’ drag’n’drop feature in Eloqua. 
+This would enable marketeer to configure a cloud service so that the content can by generated dynamicaly 
+as email get opened.&lt;/p&gt;
+
+&lt;p&gt;There were two types of content types that could be integrated, which are related products and content promotion.&lt;/p&gt;
+
+&lt;h3 id=&quot;recommend&quot;&gt;Recommend&lt;/h3&gt;
+&lt;p&gt;Recommend content was handled in such way that the markeeter could search for a specific product (or category) in the user interfrace,
+while pulling data from the CDO in the Eloqua. The layout for the visual presentation are also placed in Eloqua select dropdowns. 
+This alows a merketeer to configure elements in the Eloqua instance and then used them in the Rich Relevance integration 
+in order to construct neccessary parameters which are used during the Email rendering.&lt;/p&gt;
+
+&lt;h3 id=&quot;engage&quot;&gt;Engage&lt;/h3&gt;
+&lt;p&gt;Enagage content is handled and configured in the similar way, it is slightly simpler to work with since it shows
+advertizement, banners and similar conten.&lt;/p&gt;
+
+&lt;h3 id=&quot;techstack&quot;&gt;Techstack&lt;/h3&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   &lt;span class=&quot;tag is-info is-light&quot;&gt; Nodejs&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Angular&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; serverless&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;Lambda&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;RDS&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;S3&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;VPC&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;API Gateway&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;CloudFront&lt;/span&gt;
+   
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="eloqua" /><category term="integration" /><summary type="html">The objective of this project was to integrate Rich Relevance Customer Experience and Personalization Platform as a standard Eloqua application. The content personalization was implemented using products Recommend and Engage. The main objective was to integrate personalized content into Email Templates by using ‘Cloud Content’ drag’n’drop feature in Eloqua. This would enable marketeer to configure a cloud service so that the content can by generated dynamicaly as email get opened. There were two types of content types that could be integrated, which are related products and content promotion. Recommend Recommend content was handled in such way that the markeeter could search for a specific product (or category) in the user interfrace, while pulling data from the CDO in the Eloqua. The layout for the visual presentation are also placed in Eloqua select dropdowns. This alows a merketeer to configure elements in the Eloqua instance and then used them in the Rich Relevance integration in order to construct neccessary parameters which are used during the Email rendering. Engage Enagage content is handled and configured in the similar way, it is slightly simpler to work with since it shows advertizement, banners and similar conten. Techstack Nodejs Angular serverless Lambda RDS S3 VPC API Gateway CloudFront</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" /><media:content medium="image" url="/assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Software Architect - Head of product</title><link href="/work-experience/2018/01/09/nordlid/" rel="alternate" type="text/html" title="Software Architect - Head of product" /><published>2018-01-09T00:00:00+00:00</published><updated>2018-01-09T00:00:00+00:00</updated><id>/work-experience/2018/01/09/nordlid</id><content type="html" xml:base="/work-experience/2018/01/09/nordlid/">&lt;p&gt;Since many of the Norlid’s clients use Eloqua as a marketing automation platform, I was working on developing custom solutions and integrations.
+Most of the solutions whould typicaly involve a specific business logic added on top of Eloqua, which would handle Contacts, Email Content or manage Assets
+in campaign canvas. Integrations where concerning primarily with importing Contacts and related data from different sources, and exporting data on Contact activities
+such as email clicks, web visits, push response etc.&lt;/p&gt;
+
+&lt;p&gt;As a result of many years of developing software arround Eloqua, a series of products have emerged as standard packages. These SaaS type solutions where designed to be installed
+across instances and serve the needs of multiple clients. With my second role as a ‘Head of product’, I had a responsibility to create standard software based on the experiences from 
+custom solutions. All the applications have been developed and hosted on AWS cloud.&lt;/p&gt;
+
+&lt;p&gt;Besides building software for Eloqua, I had an opportunity to develop a backend and mobile application for “Få tiden tilbage” project which took six months to complete.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">Since many of the Norlid’s clients use Eloqua as a marketing automation platform, I was working on developing custom solutions and integrations. Most of the solutions whould typicaly involve a specific business logic added on top of Eloqua, which would handle Contacts, Email Content or manage Assets in campaign canvas. Integrations where concerning primarily with importing Contacts and related data from different sources, and exporting data on Contact activities such as email clicks, web visits, push response etc. As a result of many years of developing software arround Eloqua, a series of products have emerged as standard packages. These SaaS type solutions where designed to be installed across instances and serve the needs of multiple clients. With my second role as a ‘Head of product’, I had a responsibility to create standard software based on the experiences from custom solutions. All the applications have been developed and hosted on AWS cloud. Besides building software for Eloqua, I had an opportunity to develop a backend and mobile application for “Få tiden tilbage” project which took six months to complete.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/Nordlid_logo_white_2019-300x50.png" /><media:content medium="image" url="/assets/images/Nordlid_logo_white_2019-300x50.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CTO</title><link href="/work-experience/2016/06/02/globase-international/" rel="alternate" type="text/html" title="CTO" /><published>2016-06-02T00:00:00+00:00</published><updated>2016-06-02T00:00:00+00:00</updated><id>/work-experience/2016/06/02/globase-international</id><content type="html" xml:base="/work-experience/2016/06/02/globase-international/">&lt;p&gt;My second time at Globase, although very different role in terms of responsibities and a new company owner (Mailup Group).
+Like with the most company acquisitions, the change of ownerwhip and culture can have a strong impact on orgamisations. 
+Appart from the structural and strategical changes, the company had to go through a discovery process in terms of technology
+and infrastructure.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest and most challenging projects during my time at Globase was the migration of hardware. We needed to change location
+withing the same hosting provider but which powered all the services neccessary for the operation of the 
+from one hosting location to another at QSC. This meant that most of the underlying services which powered 
+platforms had to be restarted and reconfigured, from database servers, load balancers, web servers.&lt;/p&gt;
+
+&lt;p&gt;List of responsibilities&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Managing development team (Agile SCRUM)&lt;/li&gt;
+  &lt;li&gt;Maintaining in house platforms and custom solutions&lt;/li&gt;
+  &lt;li&gt;Pre-sales and requirement specification&lt;/li&gt;
+  &lt;li&gt;Maintaining hardware in QSC&lt;/li&gt;
+  &lt;li&gt;Management group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another big undertaking was the migrattion of the V2 platform from QSC to a new cloud setup at Mailup hosting center in Cremona. 
+Even though we could not complete the migration due to the high level of complexity and unforeseeable issues, we were able to implement 
+continuous deployment on the existing setup, since the V2 platform was fully virtualized in a development environment.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">My second time at Globase, although very different role in terms of responsibities and a new company owner (Mailup Group). Like with the most company acquisitions, the change of ownerwhip and culture can have a strong impact on orgamisations. Appart from the structural and strategical changes, the company had to go through a discovery process in terms of technology and infrastructure. One of the biggest and most challenging projects during my time at Globase was the migration of hardware. We needed to change location withing the same hosting provider but which powered all the services neccessary for the operation of the from one hosting location to another at QSC. This meant that most of the underlying services which powered platforms had to be restarted and reconfigured, from database servers, load balancers, web servers. List of responsibilities Managing development team (Agile SCRUM) Maintaining in house platforms and custom solutions Pre-sales and requirement specification Maintaining hardware in QSC Management group Another big undertaking was the migrattion of the V2 platform from QSC to a new cloud setup at Mailup hosting center in Cremona. Even though we could not complete the migration due to the high level of complexity and unforeseeable issues, we were able to implement continuous deployment on the existing setup, since the V2 platform was fully virtualized in a development environment.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" /><media:content medium="image" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">System Developer</title><link href="/work-experience/2015/11/05/increase/" rel="alternate" type="text/html" title="System Developer" /><published>2015-11-05T00:00:00+00:00</published><updated>2015-11-05T00:00:00+00:00</updated><id>/work-experience/2015/11/05/increase</id><content type="html" xml:base="/work-experience/2015/11/05/increase/">&lt;p&gt;Most of my time at Increase I spent working with Oracles’s marketing automation platform Eloqua. I was building apps and data integrations in the AWS cloud. One of the more interesting project during that time, was the development of the Event App. This application was designed to handle the event flow by creating many assets (Email, Landing Page, Registration Form, Custom Data Object etc) on a campaign canvas in Eloqua, which can handle the invitation, registration and keep track of the participation status.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">Most of my time at Increase I spent working with Oracles’s marketing automation platform Eloqua. I was building apps and data integrations in the AWS cloud. One of the more interesting project during that time, was the development of the Event App. This application was designed to handle the event flow by creating many assets (Email, Landing Page, Registration Form, Custom Data Object etc) on a campaign canvas in Eloqua, which can handle the invitation, registration and keep track of the participation status.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/luana-azevedo-vV-L0Zc_po8-unsplash.jpg" /><media:content medium="image" url="/assets/images/luana-azevedo-vV-L0Zc_po8-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Event App</title><link href="/project/2015/06/07/event-app-eloqua/" rel="alternate" type="text/html" title="Event App" /><published>2015-06-07T00:00:00+00:00</published><updated>2015-06-07T00:00:00+00:00</updated><id>/project/2015/06/07/event-app-eloqua</id><content type="html" xml:base="/project/2015/06/07/event-app-eloqua/">&lt;p&gt;The main objective of this project was to create an application which would help fasciliate event management in Eloqua. In many cases managing events in Eloqua can be a repetative task,
+requiring many hours of work in order to setup the necessary logic for an event flow. This application attempts to do exactly that, save the marketeer from manual work and create the assets and the pattern for the particiation flow.&lt;/p&gt;
+
+&lt;p&gt;During the event creation process, many Eloqua assets are being created and integrated into the campagin canvas. Assets such as Segment, Email, Form, Landing Page, Custom Data Objects and Campagin are created and configured in order to support invitation, registration, unregistration and waiting list email notifications. When a Segment is ready and the Campaign activated on the campaign canvas, the Contacts on that segment would recieve an inviation email and by clicking on the registration link, enter the event flow.&lt;/p&gt;
+
+&lt;p&gt;A participant can have different status changes such as registered, attended, unregistered and waiting. All these status changes can be initiated within the application and stored in 
+the Custom Data Object in Eloqua. The change of participant status (registered, attended, waiting) are handled viea processing steps.&lt;/p&gt;
+
+&lt;p&gt;In order to achieve a specific look and feel for the Emails and Landing Pages, Event application supports Assets Templates. This allows a high level of customization
+and reusability.&lt;/p&gt;
+
+&lt;h3 id=&quot;techstack&quot;&gt;Techstack&lt;/h3&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   &lt;span class=&quot;tag is-info is-light&quot;&gt; Nodejs&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; jQuery&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Sails&lt;/span&gt;
+   &lt;span class=&quot;tag is-primary is-light&quot;&gt; Docker&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tags are-medium&quot;&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;ECS&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;RDS&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;VPC&lt;/span&gt;
+   
+&lt;span class=&quot;tag is-warning is-light&quot;&gt;CloudFront&lt;/span&gt;
+   
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="eloqua" /><category term="integration" /><summary type="html">The main objective of this project was to create an application which would help fasciliate event management in Eloqua. In many cases managing events in Eloqua can be a repetative task, requiring many hours of work in order to setup the necessary logic for an event flow. This application attempts to do exactly that, save the marketeer from manual work and create the assets and the pattern for the particiation flow. During the event creation process, many Eloqua assets are being created and integrated into the campagin canvas. Assets such as Segment, Email, Form, Landing Page, Custom Data Objects and Campagin are created and configured in order to support invitation, registration, unregistration and waiting list email notifications. When a Segment is ready and the Campaign activated on the campaign canvas, the Contacts on that segment would recieve an inviation email and by clicking on the registration link, enter the event flow. A participant can have different status changes such as registered, attended, unregistered and waiting. All these status changes can be initiated within the application and stored in the Custom Data Object in Eloqua. The change of participant status (registered, attended, waiting) are handled viea processing steps. In order to achieve a specific look and feel for the Emails and Landing Pages, Event application supports Assets Templates. This allows a high level of customization and reusability. Techstack Nodejs jQuery Sails Docker ECS RDS VPC CloudFront</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" /><media:content medium="image" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">System Developer</title><link href="/work-experience/2014/04/07/globase/" rel="alternate" type="text/html" title="System Developer" /><published>2014-04-07T00:00:00+00:00</published><updated>2014-04-07T00:00:00+00:00</updated><id>/work-experience/2014/04/07/globase</id><content type="html" xml:base="/work-experience/2014/04/07/globase/">&lt;p&gt;Similar to my previous job, at Globase I was developing solutions and integrations against yet another email marketing automation platform. This involved a variaty of tasks such as integrating external data sources for email content, implementing contest strategies such as polls, quiz and giveaways.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">Similar to my previous job, at Globase I was developing solutions and integrations against yet another email marketing automation platform. This involved a variaty of tasks such as integrating external data sources for email content, implementing contest strategies such as polls, quiz and giveaways.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" /><media:content medium="image" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Software Developer</title><link href="/work-experience/2013/03/10/brandhouse/" rel="alternate" type="text/html" title="Software Developer" /><published>2013-03-10T00:00:00+00:00</published><updated>2013-03-10T00:00:00+00:00</updated><id>/work-experience/2013/03/10/brandhouse</id><content type="html" xml:base="/work-experience/2013/03/10/brandhouse/">&lt;p&gt;At Brandhouse, I had a chance of working on a platform (Publicator) made for graphic design and print. The tasks where including integration with data sources, implementing new feature requests and collecting requirement specification from a customer.&lt;/p&gt;</content><author><name></name></author><category term="work" /><summary type="html">At Brandhouse, I had a chance of working on a platform (Publicator) made for graphic design and print. The tasks where including integration with data sources, implementing new feature requests and collecting requirement specification from a customer.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" /><media:content medium="image" url="/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
