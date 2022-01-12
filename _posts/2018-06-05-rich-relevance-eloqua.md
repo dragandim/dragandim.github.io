@@ -54,7 +54,7 @@ advertizement, banners and similar conten.
 {% else %}
 
 <div class="tags are-medium">
-   <span class="tag is-primary is-light"> Nodejs</span>
+   <span class="tag is-info is-light"> Nodejs</span>
    <span class="tag is-primary is-light"> Angular</span>
    <span class="tag is-primary is-light"> serverless</span>
 </div>

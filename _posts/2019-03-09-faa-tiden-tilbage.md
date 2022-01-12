@@ -49,7 +49,7 @@ For this project, Nordlid has recieved the Danish Digital Award in the category 
 {% else %}
 
 <div class="tags are-medium">
-   <span class="tag is-primary is-light"> Nodejs</span>
+   <span class="tag is-info is-light"> Nodejs</span>
    <span class="tag is-primary is-light"> Ionic</span>
    <span class="tag is-primary is-light"> Angular</span>
    <span class="tag is-primary is-light"> serverless</span>
