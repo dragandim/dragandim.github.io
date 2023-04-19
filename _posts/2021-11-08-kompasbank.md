@@ -1,12 +1,12 @@
 ---
 title: Software Engineer
-company: Freelancer
+company: kompasbank A/S
 place: Copenhagen
 layout: work-experience
-startDate: 'Jan 2020'
-endDate: 'Okt 2021'
+startDate: 'Nov 2021'
+endDate: 'Mar 2022'
 image: "/assets/images/Nordlid_logo_white_2019-300x50.png"
-description: "Software Engineer - Freelancer"
+description: "Software Engineer"
 skills:
 - Nodejs
 - AWS

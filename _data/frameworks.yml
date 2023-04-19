@@ -1,6 +1,15 @@
 - name: Express
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 80
+- name: Serverless
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: CDK	
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: React
+  url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  level: 60
 - name: Angular
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
@@ -13,13 +22,13 @@
 - name: Sails
   level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: Serverless	
-  level: 80
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: TypeORM
   level: 60
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Sequelize
+  level: 80
+  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: Jest
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Laravel

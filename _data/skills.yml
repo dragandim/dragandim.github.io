@@ -6,14 +6,14 @@
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: At Some level this skill
   level: 80
-- name: Typescript
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
-  level: 60
 - name: Javascript
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: At Some level this skill
   level: 80
+- name: Typescript
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: At Some level this skill
+  level: 70
 - name: PHP
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   description: At Some level this skill

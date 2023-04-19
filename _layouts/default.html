@@ -7,8 +7,9 @@ layout: compress
 {% include head.html %}
     <body>
   {% include navbar.html %}
-  {% include showcase.html %}
+  {% include showcase.html %}    
   {% include about.html %}
+  {% include skills.html %}
   {% include contact.html %}
   <!--Footer begins here-->
 {% include footer.html %}
@@ -17,21 +18,30 @@ layout: compress
   window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
     var item = document.getElementsByClassName('navbar-item');
-    /* console.log(scroll); */
+    console.log(item); 
     if (scroll < 565) {
       item[1].classList.add('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.remove('is-active');
+      item[4].classList.remove('is-active');
     }
     if (scroll > 565 && scroll < 1130) {
       item[1].classList.remove('is-active');
       item[2].classList.add('is-active');
       item[3].classList.remove('is-active');
+      item[4].classList.remove('is-active');
     }
-    if (scroll > 1130) {
+    if (scroll > 1130 && scroll < 1695)  {
       item[1].classList.remove('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.add('is-active');
+      item[4].classList.remove('is-active');
+    }
+    if (scroll > 1695)  {
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+      item[3].classList.remove('is-active');
+      item[4].classList.add('is-active');
     }
   });
 </script>
