@@ -23,4 +23,6 @@ categories:
 ---
 
 In January 2020 I decided to embark on a freelance journey. 
-Its been a great learning experince so far :-). 
+Its been a great learning experince and a bit challending at the same time. 
+One of the biggest project during this time was developing Airship integration
+for Eloqua. 
