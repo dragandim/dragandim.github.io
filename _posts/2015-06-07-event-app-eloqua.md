@@ -17,16 +17,16 @@ aws:
 - CloudFront
 ---
 
-The main objective of this project was to create an application which would help fasciliate event management in Eloqua. In many cases managing events in Eloqua can be a repetative task,
-requiring many hours of work in order to setup the necessary logic for an event flow. This application attempts to do exactly that, save the marketeer from manual work and create the assets and the pattern for the particiation flow.
+The main objective of this project was to create an application which would help facilitate event management in Eloqua. In many cases managing events in Eloqua can be a repetitive task,
+requiring many hours of work in order to setup the necessary logic for an event flow. This application attempts to do exactly that, save the marketeer from manual work and create the assets and the pattern for the participation flow.
 
-During the event creation process, many Eloqua assets are being created and integrated into the campagin canvas. Assets such as Segment, Email, Form, Landing Page, Custom Data Objects and Campagin are created and configured in order to support invitation, registration, unregistration and waiting list email notifications. When a Segment is ready and the Campaign activated on the campaign canvas, the Contacts on that segment would recieve an inviation email and by clicking on the registration link, enter the event flow.
+During the event creation process, many Eloqua assets are being created and integrated into the campaign canvas. Assets such as Segment, Email, Form, Landing Page, Custom Data Objects and Campaign are created and configured in order to support invitation, registration, unregistration and waiting list email notifications. When a Segment is ready and the Campaign activated on the campaign canvas, the Contacts on that segment would receive an invitation email and by clicking on the registration link, enter the event flow.
 
 A participant can have different status changes such as registered, attended, unregistered and waiting. All these status changes can be initiated within the application and stored in 
-the Custom Data Object in Eloqua. The change of participant status (registered, attended, waiting) are handled viea processing steps.
+the Custom Data Object in Eloqua. The change of participant status (registered, attended, waiting) are handled via processing steps.
 
 In order to achieve a specific look and feel for the Emails and Landing Pages, Event application supports Assets Templates. This allows a high level of customization
-and reusability. 
+and re-usability. 
 
 ### Techstack
 {% if site.pdf_sidebar == "mydoc_sidebar" %}

@@ -27,13 +27,13 @@ There were two types of content types that could be integrated, which are relate
 
 ### Recommend
 Recommend content was handled in such way that the markeeter could search for a specific product (or category) in the user interfrace,
-while pulling data from the CDO in the Eloqua. The layout for the visual presentation are also placed in Eloqua select dropdowns. 
-This alows a merketeer to configure elements in the Eloqua instance and then used them in the Rich Relevance integration 
-in order to construct neccessary parameters which are used during the Email rendering. 
+while pulling data from the CDO in the Eloqua. The layout for the visual presentation are also placed in Eloqua select drop downs. 
+This allows a marketeer to configure elements in the Eloqua instance and then used them in the Rich Relevance integration 
+in order to construct necessary parameters which are used during the Email rendering. 
 
 ### Engage
-Enagage content is handled and configured in the similar way, it is slightly simpler to work with since it shows
-advertizement, banners and similar conten.
+Engage content is handled and configured in the similar way, it is slightly simpler to work with since it shows
+advertisement, banners and similar content.
 
 ### Techstack
 

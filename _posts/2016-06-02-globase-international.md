@@ -23,13 +23,13 @@ categories:
 - work-experience
 ---
 
-My second time at Globase, although very different role in terms of responsibities and a new company owner (Mailup Group).
-Like with the most company acquisitions, the change of ownerwhip and culture can have a strong impact on orgamisations. 
-Appart from the structural and strategical changes, the company had to go through a discovery process in terms of technology
+My second time at Globase, although very different role in terms of responsibilities and a new company owner (Mailup Group).
+Like with the most company acquisitions, the change of ownership and culture can have a strong impact on orgamisations. 
+Besides the structural and strategical changes, the company had to go through a discovery process in terms of technology
 and infrastructure.
 
 One of the biggest and most challenging projects during my time at Globase was the migration of hardware. We needed to change location
-withing the same hosting provider but which powered all the services neccessary for the operation of the 
+within the same hosting provider but which powered all the services necessary for the operation of the 
 from one hosting location to another at QSC. This meant that most of the underlying services which powered 
 platforms had to be restarted and reconfigured, from database servers, load balancers, web servers.
 

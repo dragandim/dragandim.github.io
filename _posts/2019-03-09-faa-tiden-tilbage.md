@@ -17,8 +17,7 @@ aws:
 - CloudFront
 ---
 
-"Få tiden tilbage" was an interesting projects that took almost 6 month to complete. The client was a public transpaoration copmany (DSB) and the concept was focusing on bringing back value
- to the passangeres who experince dealays, due to the maintenance work done on the railways. 
+"Få tiden tilbage" was an interesting projects that took almost 6 month to complete. The client was a public transportation company (DSB) and the concept was focusing on bringing back value to the passengers who experience delays, due to the maintenance work done on the railways. 
 
 The first release of the application was managing journeys, where a passenger is able to check in on the start of the journey, and checkout on the end destination, earning a certain amount of minutes based on the rules defined for that specific route. Every journey route had a defined award, and every journey was adding to the total of the credits saved. 
  

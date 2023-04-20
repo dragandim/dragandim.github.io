@@ -22,5 +22,5 @@ categories:
 - work-experience
 ---
 
-In January 2020 I decided to embark on a freelance journey. 
-Its been a great learning experince so far :-). 
+This is my endevour in fintech :)
+
