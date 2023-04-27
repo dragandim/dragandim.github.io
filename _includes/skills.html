@@ -1,28 +1,37 @@
-<section class="hero is-fullheight has-background-white-ter" id="skills">
+<section class="hero is-fullheight has-background-white-bis" id="skills">
     <div class="hero-body">
         <div class="container">
-            <h4 class="subtitle is-3"> Skills </h4>
-            <div class="columns is-4 p-4">
-                <div class="column is-half">
-                    {% for skill in site.data.skills limit: 6 %}
-                    <h6 class="subtitle is-6"> {{skill.name}}</h6>
-                    <progress class="progress is-small" value="{{skill.level }}" max="100">{{skill.level }}%</progress>
-                    {% endfor %}
+            <div class="columns ">
+                <div class="column has-text-centered">
+                    <h4 class="subtitle is-2"> Skills </h4>
                 </div>
-                <div class="is-half">
+            </div>
+            <br>
+            <div class="columns">
+                <div class="column is-half has-background-grey-light_ " >
+
+                    {% for skill in site.data.skills limit: 6 %}
+                        <h6 class="subtitle is-6 mb-0"> {{skill.name}}</h6>
+                        <progress class="progress is-small" value="{{skill.level}}" max="100">{{skill.level }}%</progress>
+                    {% endfor %}
+
+                </div>
+                <div class="column" style="margin:0">
+
                     <h4 class="subtitle is-5"> Frameworks: </h4>
-                    <div class="columns is-multiline is-variable">
+                    <div class="tags">
                      {% for framework in site.data.frameworks %}
-                        <div class="tag is-info is-medium column pb-2">{{ framework.name }}</div>
+                        <div class="tag is-info is-medium ">{{ framework.name }}</div>
                       {% endfor %}
                     </div>
-                    
+
                     <h4 class="subtitle is-5"> AWS: </h4>
-                    <div class="columns is-multiline ">
+                    <div class="tags ">
                      {% for aws in site.data.aws %}
-                        <span class="tag is-warning is-medium column">{{ aws.name }}</span>
+                        <span class="tag is-warning is-medium ">{{ aws.name }}</span>
                       {% endfor %}
                     </div>
+
                 </div>
             </div>
         </div>
