@@ -17,7 +17,11 @@
 - name: RDS
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-  description: Step Function
+  description: Relational Database Service
+- name: DynamoDB
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  level: 70
+  description: Relational Database Service
 - name: Cognito
   level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg

@@ -18,42 +18,44 @@
                             <img class="is-rounded" src="{{site.data.about.image}}">
                         </figure>
                     </div>
-                    <div class="column is-marginless">
-                        <h5 class="has-text-white">
-                            <i class="fa fa-pagelines"></i> Tenfold Path
-                        </h5>
-                        <h7 class="has-text-grey">CVR 36128801 </h7>
-                        <h5 class="has-text-grey">Dragan Dimitrijevic</h5>
-                        <div class="content has-text-grey">
-                            <p> dragandm@gmail.com </p>
-                        </div>
+                    <div class="column">
+                        <a href="https://www.visidra.com"> 
+                            <h5 class="has-text-primary">
+                                <i class="fa fa-pagelines is-primary"></i> {{site.company}}
+                            </h5>
+                            <h7 class="has-text-grey">CVR 36128801 </h7>
+                            <h5 class="has-text-grey">Dragan Dimitrijevic</h5>
+                            <div class="content has-text-grey">
+                                <p> {{site.email}} </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <!--Link Section-->
-            <div class="column has-text-white">
+            <div class="column has-text-primary">
                 <h3>Recent Workplaces</h3>
                 {% for tag in site.tags %}
                   {% if tag[0] == "work" %}
                     {% for post in tag[1] limit: 3 %}
-                    <li>
-                        <a href="{{post.url | absolute_url}}">{{post.title}}</a>
-                    </li>
+                <li>
+                    <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                </li>
                     {% endfor %}
                   {% endif %}
                 {% endfor %}
             </div>
 
             <!--Blog-post Section-->
-            <div class="column has-text-white">
+            <div class="column has-text-primary">
                 <h3>Recent Projects</h3>
               {% for tag in site.tags %}
                 {% if tag[0] == "project" %}
                   {% for post in tag[1] limit: 3 %}
-                  <li>
-                      <a href="{{post.url | absolute_url}}">{{post.title}}</a>
-                  </li>
+                <li>
+                    <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+                </li>
                   {% endfor %}
                 {% endif %}
               {% endfor %}
