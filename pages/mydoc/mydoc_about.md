@@ -16,7 +16,7 @@ folder: mydoc
   </div>
   <div class="col-xs-6 col-sm-6 col-md-6">
      <h3> {{site.data.about.name}} </h3>
-     <span> <i class="fa fa-envelope-o"></i> </span> {{site.data.about.email}} <br>
+     <span> <i class="fa fa-envelope-o"></i> </span> {{site.email}} <br>
      <span> <i class="fa fa-phone"></i> </span> {{site.data.about.mobile}} <br>
      <span> <i class="fa fa-flag"></i> </span> Serbian <br>
      <span> <i class="fa fa-globe"></i> </span> Danish <br>
