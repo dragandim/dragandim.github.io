@@ -4,7 +4,7 @@ company: kompasbank A/S
 place: Copenhagen
 layout: work-experience
 startDate: 'Nov 2021'
-endDate: 'Mar 2022'
+endDate: 'Mar 2023'
 image: "/assets/images/Nordlid_logo_white_2019-300x50.png"
 description: "Software Engineer"
 skills:
