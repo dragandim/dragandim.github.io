@@ -12,10 +12,6 @@ entries:
       url: /titlepage.html
       output: pdf
       type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
 
   - title: Curriculum Vitae
     output: web, pdf
@@ -25,16 +21,16 @@ entries:
       url: /mydoc_about.html
       output: web, pdf
 
-    - title: Education
-      url: /mydoc_education.html
-      output: web, pdf
-
     - title: Work Experinces
       url: /mydoc_work_experiences.html
       output: web, pdf
 
     - title: Projects
       url: /mydoc_projects.html
+      output: web, pdf
+
+    - title: Education
+      url: /mydoc_education.html
       output: web, pdf
 
     - title: Skills

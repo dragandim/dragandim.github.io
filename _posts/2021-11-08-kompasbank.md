@@ -1,6 +1,6 @@
 ---
 title: Software Engineer
-company: kompasbank A/S
+company: kompasbank
 place: Copenhagen
 layout: work-experience
 startDate: 'Nov 2021'
@@ -22,8 +22,13 @@ categories:
 - work-experience
 ---
 
-This is was first role in a fintech industry. I worked on an in house system developed for Lead Generation. It was a tool used by the sales team to find the Danish companies with solid economy who would be suitable candidatds for credit approvals. The input from the sales time was fed into the learning model wich analysed anual reports, probability of distress and other financial information relevant in minimizing risks. 
+This was my first role in a fintech industry. I worked on an in house Lead Generation application. It is a tool developed primarily for the sales team but it is used throughout the organization.
+The primary objective was to profile companies with solid economy who would be suitable candidates for credit approvals. The input from the sales team was fed into the ML model which analyzed annual reports, 
+probability of distress and other financial information relevant in minimizing risks. 
 
-Another interesting part of my journey at kompasbank was being part of credit automation project. The objective was to process batches of credit applications through KYC, AML and PEP checks.
+Another interesting part of my journey at kompasbank was working on the credit automation project. In order to process large batches of credit request, we designed a workflow solution which 
+integrates external on boarding system (Muinmos) with credit approval REST API and stores the relevant information back into kompasbank's CRM nCino (Salesforce). Once the client information passes KYC, AML and PEP
+checks, the financial data is being analyzed and the credits are being approved or disapproved. 
 
-The software was developed using Typescript for both front end, back end and AWS cloud resource provisioning. 
+The software was developed using Nodejs and Typescript for both front end, back end and AWS cloud resource provisioning. For the workflow logic we chose AWS SFN service which proved to be an excellent choice
+for this problem domain.

@@ -17,29 +17,24 @@ skills:
 - Express
 - ActiveMQ
 - Vagrant
+- Ansible
 tags:
 - work
 categories:
 - work-experience
 ---
 
-My second time at Globase, although very different role in terms of responsibilities and a new company owner (Mailup Group).
-Like with the most company acquisitions, the change of ownership and culture can have a strong impact on orgamisations. 
-Besides the structural and strategical changes, the company had to go through a discovery process in terms of technology
-and infrastructure.
+At Globase, I was responslible for a development team of 5 employees. The company had a client portfolio of about 100 companies, among which where: Mercedes - Benz , Bang & Olufsen, 3M, Grundfos, DFDS, Cognito and others. Our SaaS product was an Email Marketing Automation platform with an eco system of custom solutions, microsites and landing pages.
 
-One of the biggest and most challenging projects during my time at Globase was the migration of hardware. We needed to change location
-within the same hosting provider but which powered all the services necessary for the operation of the 
-from one hosting location to another at QSC. This meant that most of the underlying services which powered 
-platforms had to be restarted and reconfigured, from database servers, load balancers, web servers.
-
-List of responsibilities
+List of responsibilities:
 * Managing development team (Agile SCRUM)
 * Maintaining in house platforms and custom solutions
 * Pre-sales and requirement specification
-* Maintaining hardware in QSC 
-* Management group
+* Maintaining server racks in QSC (Germany)
+* Being part of the Management group
+* Migrating clients from V1 to V2 platform
 
-Another big undertaking was the migrattion of the V2 platform from QSC to a new cloud setup at Mailup hosting center in Cremona. 
-Even though we could not complete the migration due to the high level of complexity and unforeseeable issues, we were able to implement 
-continuous deployment on the existing setup, since the V2 platform was fully virtualized in a development environment.
+It was an exciting time of transition and cultural changes due to the fact that Globase changed the ownership, from Ad Pepper Media to Mailup (Growens). 
+
+
+

@@ -1,48 +1,39 @@
 - name: EC2
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 80
-  description: Some Skill descipriton
 - name: ECS
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-  description: Some Skill descipriton
 - name: Lambda
   level: 89
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
 - name: SFN
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-  description: Step Function
 - name: RDS
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-  description: Relational Database Service
 - name: DynamoDB
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-  description: Relational Database Service
 - name: Cognito
   level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
 - name: API Gateway
   level: 60
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
+- name: AppSync
+  level: 60
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: S3
   level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
 - name: CloudFront		
   level: 60
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
 - name: CloudWatch
   level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
 - name: VPC
   level: 60
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: At Some level this skill
