@@ -17,29 +17,32 @@ aws:
 - VPC
 - API Gateway
 - CloudFront
+- CloudMetrics
 ---
 
-This integration project was about making Eloqua send push messages, using multi channel messaging platform [Airship](https://www.airship.com/). 
-The integration was covering following use cases:
-* Send push message from campaign canvas (scheduled, in-app)
-* Send push message from a segment (batch)
+This integration project enabled Eloqua to send push notifications through the multi-channel messaging platform [Airship](https://www.airship.com/).
+The integration supported several key use cases:
+
+* Send push message from campaign canvas (scheduled or in-app)
+* Send push message from a segment (batch send)
 * Send push message on form post
 * Import devices to Eloqua
-* Collect response activity
+* Collecting and managing response activity
 
-When working in campaign canvas view, a marketeer can choose an Airship component (cloud action) and drag it onto the campaign canvas. 
-In just a few clicks, a marketeer can authenticate, choose a mobile app, select a message template (configured in Airship) and choose
-Android or iOS as target platforms. If necessary, a message could be scheduled or send as an immediate push. Once everything is saved, 
-the campaign is ready to send push message to all the contacts that pass through the action step.
+In the Eloqua campaign canvas, marketers could easily drag and drop the Airship Cloud Action component into their campaign workflow. 
+With a few simple steps, users could authenticate, select a mobile app, choose a pre-configured message template from Airship, and 
+target either Android or iOS platforms. Push messages could be scheduled for later or sent immediately to all contacts that flowed 
+through the action step, providing flexibility and ease of use.
 
-Besides sending via campaign canvas, a marketeer can choose to send push message to a whole segment in a segment view. Once the 
-criteria for the segmentation is defined and saved, the Airship integrated GUI can be slided out and the configuration steps can take place. As in the previous scenario, the configuration process is the same, however behind the scenes the difference is that segment push is a one time send out to all the segment members, while in the ongoing campaigns the messages are send to passing contacts.
-The big difference here is that in the first scenario, the integration backend receives contact payload, whereas in the second
-the contact payload has to be fetched from Eloqua. 
+Appart from the campaign canvas, marketers can also send push notifications to an entire segment. In the segment view, after defining 
+the segmentation criteria, the integrated Airship interface can be accessed to complete the configuration. Although the setup process 
+is similar, there is a key difference: segment-based pushes are one-time sends to all members of a segment, while in ongoing campaigns, 
+notifications are sent individually as contacts pass through the action step. Technically, this means that in the campaign canvas, 
+the integration backend receives the contact payload directly, whereas for segment pushes, contact data must be fetched from Eloqua.
 
-Apart from sending push messages, the Airship integration also manages the import of Airship devices into Eloqua and collects response activity. 
-Devices are stored in Custom Data Objects, while response data are stored as External Activities. Both are used in segmentation process
-and in order to create more complex flows based on user interaction.
+In addition to sending push messages, the Airship integration supports device import into Eloqua and response activity tracking. 
+Imported devices are stored in Custom Data Objects, while response data is recorded as External Activities. Both data types are 
+used in segmentation and help create more complex workflows based on user interactions.
 
 ### Techstack
 
