@@ -1,0 +1,27 @@
+<div class="border"> 
+    <div class="prose">
+        <h2 class="py-1"> {{project.title}} </h2>
+    </div>
+    <div class="prose pt-4">
+      {{project.content}}
+    </div>
+    {{project.company}}
+
+    <div class="flex">
+   {% for t in project.tech %}
+    <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
+        <a href="https://angular.dev/">
+            <img class="object-center" src="{{t.image}}">
+        </a>
+    </div>
+   {% endfor %}
+    </div>
+
+    <div class="">
+   {% for aws in project.aws %}
+        <div class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-800 ring-1 ring-inset ring-yellow-600/20">{{ aws }}</div>
+   {% endfor %}
+    </div>
+
+
+</div>

@@ -1,0 +1,25 @@
+<nav class="w-full container h-[65px] flex items-center justify-between px-6 mx-auto text-white">
+    <a href="/"><div class="font-bold">{{site.data.about.name}}</div></a>
+    <div class="flex items-start p-2">
+        <a href="/about">
+            <div class="mx-2 hover:text-purple-500 {% if page.layout == 'v2/about' %}font-extrabold text-purple-500{% endif %}">
+               About 
+            </div>
+        </a>
+        <a href="/skills">
+            <div class="mx-2 hover:text-purple-500 {% if page.layout == 'v2/skills' %}font-extrabold text-purple-500{% endif %}"">
+               Skills 
+            </div>
+        </a>
+        <a href="/work-experience">
+            <div class="mx-2 hover:text-purple-500 {% if page.layout == 'v2/work-experience' %}font-extrabold text-purple-500{% endif %}">
+               Work experience
+            </div>
+        </a>
+        <a href="/projects">
+            <div class="mx-2 hover:text-purple-500 {% if page.layout == 'v2/projects' %}font-extrabold text-purple-500{% endif %}">
+               Projects
+            </div>
+        </a>
+    </div>
+</nav>

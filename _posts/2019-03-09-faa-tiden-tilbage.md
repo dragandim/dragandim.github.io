@@ -8,6 +8,13 @@ tags:
 - campaign
 categories:
 - project
+tech: 
+- name: Nodejs
+  image: /assets/images/nodejs-svgrepo-com.svg
+- name: Ionic 
+  image: /assets/images/ionic-icon-svgrepo-com.svg
+- name: serverless
+  image: /assets/images/serverless-svgrepo-com.svg
 aws: 
 - Lambda
 - RDS
@@ -35,29 +42,11 @@ For this project, Nordlid has recieved the Danish Digital Award in the category 
 <span class="label label-info">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.ionic-image}}"> Ionic
 </span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
-</span>
 <span class="label label-primary">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
 </span>
 
 <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
 <span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% else %}
-
-<div class="tags are-medium">
-   <span class="tag is-info is-light"> Nodejs</span>
-   <span class="tag is-primary is-light"> Ionic</span>
-   <span class="tag is-primary is-light"> Angular</span>
-   <span class="tag is-primary is-light"> serverless</span>
-</div>
-
-<div class="tags are-medium">
-   {% for aws in page.aws %}
-   <span class="tag is-warning is-light">{{ aws }}</span>
-   {% endfor %}
-</div>
 
 {% endif %}

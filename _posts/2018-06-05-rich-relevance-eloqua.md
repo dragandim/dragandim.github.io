@@ -9,6 +9,13 @@ tags:
 - integration
 categories:
 - project
+tech: 
+- name: Nodejs
+  image: /assets/images/nodejs-svgrepo-com.svg
+- name: Angular 
+  image: /assets/images/angular-svgrepo-com.svg
+- name: serverless
+  image: /assets/images/serverless-svgrepo-com.svg
 aws: 
 - Lambda
 - RDS
@@ -50,20 +57,6 @@ advertisement, banners and similar content.
 
 <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
 <span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% else %}
-
-<div class="tags are-medium">
-   <span class="tag is-info is-light"> Nodejs</span>
-   <span class="tag is-primary is-light"> Angular</span>
-   <span class="tag is-primary is-light"> serverless</span>
-</div>
-
-<div class="tags are-medium">
-   {% for aws in page.aws %}
-<span class="tag is-warning is-light">{{ aws }}</span>
-   {% endfor %}
-</div>
 
 {% endif %}
 

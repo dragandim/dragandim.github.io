@@ -1,0 +1,64 @@
+<div class="mt-4 mx-4"> 
+    <div class="prose">
+        <h2 class="py-1"> Skills </h2>
+    </div>
+
+    <div class="grid grid-rows-3 grid-flow-col gap-2 mb-8">
+
+       {% for skill in site.data.skills limit: 12 %}
+        <div class="flex justify-center items-center">
+            
+            <div class="w-1/4 m-2">
+                <img class="" src="{{skill.image}}" title="{{skill.name}}" />
+            </div>
+
+            <div class="w-3/4 p-2">
+                <div class="bg-gray-300 h-2  dark:bg-gray-300 rounded-full">
+                    <div class="bg-gradient-to-l from-sky-500 h-2 rounded-full dark:bg-blue-600" style="width: {{skill.level}}%"></div>
+                </div>
+            </div>
+            
+        </div>
+       {% endfor %}
+
+    </div>
+
+    <div class="prose">
+        <h2 class="py-2"> Continuous Integration & Deployment  </h2>
+    </div>
+    <div class="p-2 mb-8">
+        <h6 class="font-headline font-bold mb-4"> </h6>
+        <div class="grid grid-cols-3 gap-2 auto-cols-max place-items-center">
+
+            {% for framework in site.data.cloud-frameworks %}
+
+            <div class="w-full bg-indigo-300 p-10 border border-blue-400/75 rounded-lg place-items-center">
+                <p class="text-white text-xs 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-sm"> {{framework.name}} </p>
+
+                <div class="w-full bg-gray-300 rounded-full h-2 dark:bg-gray-300">
+                    <div class="bg-gradient-to-l from-sky-500  h-2 rounded-full dark:bg-blue-600" style="width: {{framework.level}}%"></div>
+                </div>
+            </div>
+            
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <div class="prose">
+        <h2 class="py-2"> Frameworks  </h2>
+    </div>
+
+    {% for framework in site.data.frameworks %}
+    <div class="p-4">
+        <div class="flex justify-center items-center">
+            <div class="w-1/4">
+                <span class="font-semibold"> {{framework.name}}</span>
+            </div>
+            <div class="w-full bg-gray-300 rounded-full h-2 dark:bg-gray-300">
+                <div class="bg-gradient-to-l from-sky-500  h-2 rounded-full dark:bg-blue-600" style="width: {{framework.level}}%"></div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

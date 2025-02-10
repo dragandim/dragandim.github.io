@@ -3,9 +3,9 @@ markdown: kramdown
 livereload: true
 
 # URL of the Site
-url: 
+url: ""
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: ""
 
 # Title of the Site
 title: Dragan Dimitrijevic
@@ -46,14 +46,18 @@ disqus-shortname: /
 author-url: https://github.com/dragandim
 
 # SASS
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
 # Build settings
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-postcss
+
+postcss:
+  cache: false
 
 # Permalink
 # permalink: "post/:title"

@@ -1,21 +1,15 @@
-- name: Serverless
+- name: Angular
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: CDK	
-  level: 80
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: SAM	
-  level: 80
+- name: Angular Material
+  level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: React
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-- name: Angular
-  level: 80
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: Angular Material	
-  level: 70
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: MUI
+  url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  level: 60
 - name: Ionic
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
@@ -35,7 +29,7 @@
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Laravel
-  level: 70
+  level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: Codeigniter
   level: 70

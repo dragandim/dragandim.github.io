@@ -2,14 +2,22 @@
 title: Event App
 layout: project
 image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: A sample post to show how the content will look and how will different
-  headlines, quotes and codes will be represented.
+description: Eloqua integration project for creating event flows and assets 
 tags:
 - project
 - eloqua
 - integration
 categories:
 - project
+tech: 
+- name: Nodejs
+  image: /assets/images/nodejs-svgrepo-com.svg
+- name: jQuery 
+  image: /assets/images/jquery-svgrepo-com.svg
+- name: Sails
+  image: /assets/images/sails-svgrepo-com.svg
+- name: Docker
+  image: /assets/images/docker-svgrepo-com.svg
 aws: 
 - ECS
 - RDS
@@ -45,20 +53,5 @@ and re-usability.
 
 <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
 <span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% else %}
-
-<div class="tags are-medium">
-   <span class="tag is-info is-light"> Nodejs</span>
-   <span class="tag is-primary is-light"> jQuery</span>
-   <span class="tag is-primary is-light"> Sails</span>
-   <span class="tag is-primary is-light"> Docker</span>
-</div>
-
-<div class="tags are-medium">
-   {% for aws in page.aws %}
-<span class="tag is-warning is-light">{{ aws }}</span>
-   {% endfor %}
-</div>
 
 {% endif %}
