@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   {% include v2/head.html %}
-    <body class="bg-no-repeat h-screen bg-center bg-cover backdrop-brightness-50 backdrop-contrast-75 bg-fixed" style="background-image: url('{{site.heroimage}}')">
+    <body class="bg-no-repeat h-screen bg-center bg-cover bg-fixed" style="background-image: url('{{site.heroimage}}')">
 
         <div class="flex">
             {% include v2/navbar.html %}
         </div>
 
         <div class="container mx-auto bg-white px-60 pt-20">
+            <h1 class="text-3xl font-semibold mb-8">Work experience</h1>
           {% assign workExperience = site.posts | where_exp: "item", "item.tags contains 'work'" %}
           {% for workExperience in workExperience %}
-            <div class="p-4 border_ rounded-md bg-white">
+            <div class="mb-8">
                 {% include v2/work-experience.html workExperience=workExperience %}
             </div>
           {% endfor %}        
