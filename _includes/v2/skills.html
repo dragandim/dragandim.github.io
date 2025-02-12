@@ -1,6 +1,6 @@
 <div class=""> 
 
-    <div class="grid grid-rows-3 grid-flow-col gap-2 mb-8">
+    <div class="grid grid-rows-3 grid-flow-col gap-2 mb-12">
 
        {% for skill in site.data.skills limit: 12 %}
         <div class="flex justify-center items-center">
@@ -23,7 +23,7 @@
     <div class="prose mb-4">
         <h2 class=""> Continuous Integration & Deployment  </h2>
     </div>
-    <div class="p-2 mb-8">
+    <div class="p-2 mb-12">
         <h6 class="font-headline font-bold mb-4"> </h6>
         <div class="grid grid-cols-3 gap-2 auto-cols-max place-items-center">
 
@@ -46,6 +46,7 @@
         <h2 class=""> Frameworks  </h2>
     </div>
 
+    <div class="pb-12">
     {% for framework in site.data.frameworks %}
     <div class="p-4">
         <div class="flex justify-center items-center">
@@ -58,4 +59,5 @@
         </div>
     </div>
     {% endfor %}
+    </div>
 </div>

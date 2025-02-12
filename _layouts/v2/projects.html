@@ -7,11 +7,15 @@
             {% include v2/navbar.html %}
         </div>
 
-        <div class="container mx-auto bg-white px-60 pt-20">
+        <div class="container mx-auto bg-slate-200 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 md:pt-20">
             <h1 class="text-3xl font-semibold mb-8">Projects</h1>
+            <!--
+            <div class="2xl:bg-yellow-500 xl:bg-slate-500 lg:bg-red-500 md:bg-green-500 sm:bg-blue-500">
+            </div>
+            -->
           {% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
           {% for project in projects %}
-            <div class="mb-8">
+            <div class="mb-8  xl:border-blue-500 lg:border-blue-500 md:border-purple-500">
                 {% include v2/project.html project=project %}
             </div>
           {% endfor %}        
