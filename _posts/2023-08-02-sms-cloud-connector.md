@@ -47,10 +47,8 @@ message delivery outcome and then imported back into Eloqua for tracking and rep
 This integration streamlined the process of adding SMS to Eloqua campaigns, providing marketers with a simple, effective way to 
 incorporate SMS messaging as part of their multi-channel strategies.
 
-
-### Techstack
-
 {% if site.pdf_sidebar == "mydoc_sidebar" %}
+### Techstack
 <span class="label label-default">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
 </span>

@@ -7,7 +7,7 @@
             {% include v2/navbar.html %}
         </div>
 
-        <div class="container mx-auto bg-white 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 md:pt-20">
+        <div class="container mx-auto bg-white 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 md:pt-20 lg:pt-20">
             <h1 class="text-3xl font-semibold mb-8">Work experience</h1>
           {% assign workExperience = site.posts | where_exp: "item", "item.tags contains 'work'" %}
           {% for workExperience in workExperience %}

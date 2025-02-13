@@ -1,4 +1,8 @@
-<div class=""> 
+<h1 class="text-3xl font-semibold mb-8">Projects</h1>
+
+{% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
+{% for project in projects %}
+<div class="mb-10"> 
     <div class="prose">
         <h2 class=""> {{project.title}} </h2>
     </div>
@@ -7,6 +11,7 @@
     </div>
     {{project.company}}
 
+    <h1 class="text-lg font-semibold mt-4 mb-1">Techstack</h1>
     <div class="flex">
    {% for t in project.tech %}
     <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
@@ -23,5 +28,6 @@
    {% endfor %}
     </div>
 
-
 </div>
+{% endfor %}
+       

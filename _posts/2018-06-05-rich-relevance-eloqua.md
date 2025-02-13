@@ -42,9 +42,8 @@ in order to construct necessary parameters which are used during the Email rende
 Engage content is handled and configured in the similar way, it is slightly simpler to work with since it shows
 advertisement, banners and similar content.
 
-### Techstack
-
 {% if site.pdf_sidebar == "mydoc_sidebar" %}
+### Techstack
 <span class="label label-default">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
 </span>

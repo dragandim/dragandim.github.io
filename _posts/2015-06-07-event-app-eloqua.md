@@ -36,8 +36,8 @@ the Custom Data Object in Eloqua. The change of participant status (registered, 
 In order to achieve a specific look and feel for the Emails and Landing Pages, Event application supports Assets Templates. This allows a high level of customization
 and re-usability. 
 
-### Techstack
 {% if site.pdf_sidebar == "mydoc_sidebar" %}
+### Techstack
 <span class="label label-default">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
 </span>

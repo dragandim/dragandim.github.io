@@ -34,8 +34,8 @@ complied to DSB scanners so that they could be checked for validation while trav
 
 For this project, Nordlid has recieved the Danish Digital Award in the category ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/)
 
-### Techstack
 {% if site.pdf_sidebar == "mydoc_sidebar" %}
+### Techstack
 <span class="label label-default">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
 </span>

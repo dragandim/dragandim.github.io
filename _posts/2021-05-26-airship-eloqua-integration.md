@@ -51,9 +51,8 @@ In addition to sending push messages, the Airship integration supports device im
 Imported devices are stored in Custom Data Objects, while response data is recorded as External Activities. Both data types are 
 used in segmentation and help create more complex workflows based on user interactions.
 
-### Techstack
-
 {% if site.pdf_sidebar == "mydoc_sidebar" %}
+### Techstack
 <span class="label label-default">
     <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
 </span>

@@ -1,4 +1,13 @@
-<div class=""> 
+<h1 class="text-3xl font-semibold mb-8">Work experience</h1>
+
+
+
+          {% assign workExperience = site.posts | where_exp: "item", "item.tags contains 'work'" %}
+          {% for workExperience in workExperience %}
+<div class="mb-8">
+
+
+    <div class=""> 
     <div class="prose">
         <h2 class=""> {{workExperience.title}} </h2>
         <h3> {{workExperience.company}} </h3>
@@ -7,4 +16,8 @@
     <div class="prose pt-4">
     {{workExperience.content}}
     </div>
+    </div>
+
+
 </div>
+          {% endfor %}        
