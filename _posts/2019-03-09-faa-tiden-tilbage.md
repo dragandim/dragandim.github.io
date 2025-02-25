@@ -11,10 +11,13 @@ categories:
 tech: 
 - name: Nodejs
   image: /assets/images/nodejs-svgrepo-com.svg
+  url: https://nodejs.org/
 - name: Ionic 
   image: /assets/images/ionic-icon-svgrepo-com.svg
+  url: https://ionicframework.com/
 - name: serverless
   image: /assets/images/serverless-svgrepo-com.svg
+  url: https://www.serverless.com/
 aws: 
 - Lambda
 - RDS

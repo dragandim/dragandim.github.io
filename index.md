@@ -1,4 +1,4 @@
 ---
 title: Home
-layout: v2/default
+layout: v2/home
 ---

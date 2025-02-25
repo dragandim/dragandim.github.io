@@ -2,21 +2,21 @@
 
 {% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
 {% for project in projects %}
-<div class="mb-10"> 
+<div class="mb-10 border-b"> 
     <div class="prose">
-        <h2 class=""> {{project.title}} </h2>
+        <h2 id="{{project.title | replace: " ", "_"}}" class=""> {{project.title}} </h2>
     </div>
     <div class="prose pt-4">
       {{project.content}}
     </div>
     {{project.company}}
 
-    <h1 class="text-lg font-semibold mt-4 mb-1">Techstack</h1>
+    <h1 class="text-lg text-slate-400 font-semibold mt-4 mb-1">Techstack</h1>
     <div class="flex">
    {% for t in project.tech %}
     <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
-        <a href="https://angular.dev/">
-            <img class="object-center" src="{{t.image}}">
+        <a href="{{t.url}}">
+            <img title="{{t.name}}" class="object-center" src="{{t.image}}">
         </a>
     </div>
    {% endfor %}

@@ -1,23 +1,24 @@
+{% assign color = "text-indigo-400" %}
 <nav class="w-full container h-[65px] flex items-center justify-between px-6 mx-auto text-white">
     <a href="/"><div class="font-bold">{{site.data.about.name}}</div></a>
     <div class="flex items-start p-2">
         <a href="/about">
-            <div class="mx-2 hover:text-purple-500 font-semibold {% if page.title == 'About' %}text-purple-500{% endif %}">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'About' %}{{ color }}{% endif %}">
                About 
             </div>
         </a>
         <a href="/skills">
-            <div class="mx-2 hover:text-purple-500 font-semibold {% if page.title == 'Skills' %}text-purple-500{% endif %}"">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Skills' %}{{ color }}{% endif %}"">
                Skills 
             </div>
         </a>
         <a href="/work-experience">
-            <div class="mx-2 hover:text-purple-500 font-semibold {% if page.title == 'Work Experience' %}text-purple-500{% endif %}">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Work Experience' %}{{ color }}{% endif %}">
                Work experience
             </div>
         </a>
         <a href="/projects">
-            <div class="mx-2 hover:text-purple-500 font-semibold  {% if page.title == 'Project' %}text-purple-500{% endif %}">
+            <div class="mx-2 hover:{{ color }} font-semibold  {% if page.title == 'Project' %}{{ color }}{% endif %}">
                Projects
             </div>
         </a>

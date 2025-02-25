@@ -12,12 +12,16 @@ categories:
 tech: 
 - name: Nodejs
   image: /assets/images/nodejs-svgrepo-com.svg
+  url: https://nodejs.org/
 - name: jQuery 
   image: /assets/images/jquery-svgrepo-com.svg
+  url: https://jquery.com/
 - name: Sails
   image: /assets/images/sails-svgrepo-com.svg
+  url: https://sailsjs.com/
 - name: Docker
   image: /assets/images/docker-svgrepo-com.svg
+  https://www.docker.com/
 aws: 
 - ECS
 - RDS

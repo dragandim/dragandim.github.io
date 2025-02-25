@@ -12,10 +12,13 @@ categories:
 tech: 
 - name: Nodejs
   image: /assets/images/nodejs-svgrepo-com.svg
+  url: https://nodejs.org/
 - name: Angular 
   image: /assets/images/angular-svgrepo-com.svg
+  url: https://angular.dev/
 - name: serverless
   image: /assets/images/serverless-svgrepo-com.svg
+  url: https://www.serverless.com/
 aws:
 - Lambda
 - RDS
@@ -28,7 +31,7 @@ aws:
 ---
 
 Since Eloqua is primarily focused on email marketing and campaign management, SMS messaages are not included as a core, native feature.
-To address this, I developed a custom Eloqua application that integrates with three major SMS service providers:
+To address this, my client and I developed a custom Eloqua application that integrates with three major SMS service providers:
 
 * [Inmobile](https://www.inmobile.com/)
 * [SMSDK](https://sms.dk/)

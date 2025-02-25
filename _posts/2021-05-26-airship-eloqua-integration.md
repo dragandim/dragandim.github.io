@@ -1,5 +1,5 @@
 ---
-title: Airship
+title: Airship Integration
 layout: project
 image: "/assets/images/airship-uss-macon.jpeg"
 description: Airship Eloqua Integration Project
@@ -12,10 +12,13 @@ categories:
 tech:
 - name: Nodejs
   image: /assets/images/nodejs-svgrepo-com.svg
+  url: https://nodejs.org/
 - name: Angular 
   image: /assets/images/angular-svgrepo-com.svg
+  url: https://angular.dev/
 - name: serverless
   image: /assets/images/serverless-svgrepo-com.svg
+  url: https://www.serverless.com/
 aws:
 - Lambda
 - RDS
