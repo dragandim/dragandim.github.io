@@ -21,7 +21,8 @@ tech:
   url: https://sailsjs.com/
 - name: Docker
   image: /assets/images/docker-svgrepo-com.svg
-  https://www.docker.com/
+  url: https://www.docker.com/
+
 aws: 
 - ECS
 - RDS

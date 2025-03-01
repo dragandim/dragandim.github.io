@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   {% include v2/head.html %}
-    <body class="bg-no-repeat h-screen bg-center bg-cover bg-fixed" style="background-image: url('{{site.heroimage}}')">
 
-        <div class="flex">
+    <body class="bg-no-repeat bg-center bg-cover bg-fixed" style="background-image: url('{{site.heroimage}}')">
+
+        <div class="flex sticky top-0 bg-slate-700">
             {% include v2/navbar.html %}
         </div>
+
         <!-- <div class="2xl:bg-yellow-500 xl:bg-slate-500 lg:bg-red-500 md:bg-green-500 sm:bg-blue-500">
              </div> -->
-        <div class="container mx-auto bg-white 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 pt-20">
+        <div class="container h-full mx-auto bg-white 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 py-20">
             {{ content }}
         </div>
 
