@@ -4,15 +4,16 @@
   startDate: 2003
   endDate: 2006
 
-- name: DU3 Modul 5 - Prøve i Dansk 3
+- name: Datamatician
+  institution: Niels Brock
+  location: Copenhagen
+  startDate: 2001
+  endDate: 2003
+
+- name: DU3 Modul 5
   institution: K.I.S.S
   location: Copenhagen
   startDate: 2004
   endDate: 2005
 
-- name: Datamatician - Information Technology
-  institution: Niels Brock
-  location: Copenhagen
-  startDate: 2001
-  endDate: 2003
 

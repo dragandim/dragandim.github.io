@@ -1,7 +1,7 @@
 - name: EC2
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 80
-- name: ECS
+- name: ECS (Fargate)
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
 - name: Lambda
@@ -12,23 +12,23 @@
   level: 70
 - name: RDS
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  level: 70
+  level: 80
 - name: DynamoDB
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
-- name: Cognito
+- name: S3
   level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: API Gateway
+- name: Cognito
   level: 60
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+- name: API Gateway
+  level: 70
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: AppSync
   level: 60
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: S3
-  level: 70
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-- name: CloudFront		
+- name: CloudFront
   level: 60
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: CloudWatch

@@ -1,0 +1,7 @@
+---
+layout: none
+---
+
+{{ site.url }}{{ site.baseurl }}/{{ site.cv_page | replace: '.md', '.html' }}
+
+

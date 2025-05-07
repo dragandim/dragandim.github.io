@@ -1,11 +1,11 @@
 <h1 class="text-3xl font-semibold mb-8">Work experience</h1>
 {% assign workExperiences = site.posts | where_exp: "item", "item.tags contains 'work'" %}
 {% for workExperience in workExperiences %}
-<div class="mb-10 border-b">
+<div class="mb-10">
     <div class="prose">
         <h2 class=""> {{workExperience.title}} </h2>
         <h3> {{workExperience.company}} </h3>
-        <span class="font-semibold">{{workExperience.startDate}} - {{workExperience.endDate}}</span>
+        <span class="font-semibold">{{workExperience.startDate | date: "%b %Y"}} - {{workExperience.endDate | date: "%b %Y"}}</span>
     </div>
     <div class="prose pt-4">
       {{workExperience.content}}

@@ -1,9 +1,12 @@
 - name: Serverless
   level: 90
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/serverless-svgrepo-com.svg
+  url: https://www.serverless.com/
 - name: AWS SAM
   level: 80
+  image: /assets/images/aws-sam-logo.png
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
 - name: CDK
   level: 70
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/cdk-logo.svg
+  url: https://aws.amazon.com/cdk/

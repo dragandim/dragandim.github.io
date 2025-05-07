@@ -10,27 +10,24 @@
 - name: Typescript
   image: https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg
   level: 70
-- name: Linux
-  image: https://upload.wikimedia.org/wikipedia/commons/b/b0/NewTux.svg
-  level: 80
-- name: MySQL
-  image: https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg
-  level: 90
-- name: Postgres
-  image: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
-  level: 70
 - name: PHP
   image: https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg
   level: 70
 - name: Python
   image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
   level: 60
-- name: HTML5
-  image: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
+- name: MySQL
+  image: https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg
+  level: 90
+- name: Postgres
+  image: https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg
   level: 70
-- name: CSS3
-  image: https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg
+- name: DynamoDB
+  image: https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png
   level: 70
+- name: Linux
+  image: https://upload.wikimedia.org/wikipedia/commons/b/b0/NewTux.svg
+  level: 80
 - name: Git
   image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
   level: 80

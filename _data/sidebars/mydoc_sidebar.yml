@@ -29,11 +29,12 @@ entries:
       url: /mydoc_projects.html
       output: web, pdf
 
+    - title: Skills
+      url: /mydoc_skills.html
+      output: web, pdf
+
     - title: Education
       url: /mydoc_education.html
       output: web, pdf
 
-    - title: Skills
-      url: /mydoc_skills.html
-      output: web, pdf
 

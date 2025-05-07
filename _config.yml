@@ -17,7 +17,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Freelancer, Software Development, AWS Cloud, Nodejs
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url:
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 # heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1920&w=1280
 heroimage: /assets/images/saikat-bg.jpg
@@ -27,16 +27,18 @@ heroimage: /assets/images/saikat-bg.jpg
 email: dragan@visidra.com
 company: Visidra
 facebook_username: dragan.dimitrijevic.7737
-twitter_username: 
-instagram_username: 
+twitter_username:
+instagram_username:
 linkedin_username: ddragan
 github_username:  dragandim
-youtube_channel_id: 
-reddit_username: 
-behance_username: 
-dribbble_username: 
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
 spotify_username: 1140898604
 
+# PDF CV page
+cv_page: combined.md
 # Google Analytics
 google-analytics: G-5KQJ5V2HJ8
 

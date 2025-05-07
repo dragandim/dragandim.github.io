@@ -24,7 +24,7 @@ folder: mydoc
   </div>
 </div>
 
-## Introduction 
+## Introduction
 
 {{site.data.about.description-0}}
 

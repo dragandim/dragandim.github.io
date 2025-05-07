@@ -1,48 +1,32 @@
 <h1 class="text-3xl font-semibold mb-8">Skills</h1>
-<div class=""> 
-
-    <div class="grid grid-rows-3 grid-flow-col gap-2 mb-12">
-
+<div class="mb-10">
+    <h2 class="text-lg font-semibold text-gray-800 mb-4">Professional</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
        {% for skill in site.data.skills limit: 12 %}
-        <div class="flex justify-center items-center">
-            <div class="w-1/4 m-2">
-                <img class="" src="{{skill.image}}" title="{{skill.name}}" />
-            </div>
-
-            <div class="w-3/4 p-2">
-                <div class="bg-gray-300 h-2  dark:bg-gray-300 rounded-full">
-                    <div class="bg-gradient-to-l from-sky-500 h-2 rounded-full dark:bg-blue-600" style="width: {{skill.level}}%"></div>
-                </div>
-            </div>
+        <div class="flex items-center space-x-3">
+            <img src="{{skill.image}}" alt="{{skill.name}}" class="h-8 w-8" />
+            <span class="text-sm font-medium">{{skill.name}}</span>
         </div>
        {% endfor %}
-
     </div>
+</div>
 
-    <div class="prose mb-4">
-        <h2 class=""> Continuous Integration & Deployment  </h2>
-    </div>
-    <div class="py-2 mb-12">
-        <h6 class="font-headline font-bold mb-4"> </h6>
-        <div class="grid grid-cols-3 gap-2 auto-cols-max place-items-center">
 
-            {% for framework in site.data.cloud-frameworks %}
-
-            <div class="w-full bg-indigo-300 p-10 border border-blue-400/75 rounded-lg place-items-center">
-                <p class="text-white text-xs 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-sm"> {{framework.name}} </p>
-
-                <div class="w-full bg-gray-300 rounded-full h-2 dark:bg-gray-300">
-                    <div class="bg-gradient-to-l from-sky-500  h-2 rounded-full dark:bg-blue-600" style="width: {{framework.level}}%"></div>
-                </div>
-            </div>
-            {% endfor %}
-
+<div class="mb-10">
+    <h2 class="text-lg font-semibold text-gray-800 mb-4">CI/CD & Cloud Tools</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+        {% for framework in site.data.cloud-frameworks %}
+        <div class="flex items-center space-x-3">
+            <img src="{{framework.image}}" alt="Serverless" class="h-8 w-8 rounded-full" />
+            <span class="text-sm font-medium">{{framework.name}}</span>
         </div>
+        {% endfor %}
     </div>
+</div>
 
-    <div class="prose mb-8">
-        <h2 class=""> Frameworks  </h2>
-    </div>
+
+<div class="mb-10">
+    <h2 class="text-lg font-semibold text-gray-800 mb-4">Frameworks</h2>
 
     <div class="pb-12">
     {% for framework in site.data.frameworks %}

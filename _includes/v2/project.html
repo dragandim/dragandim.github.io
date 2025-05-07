@@ -1,8 +1,9 @@
 <h1 class="text-3xl font-semibold mb-8">Projects</h1>
 
-{% assign projects = site.posts | where_exp: "item", "item.tags contains 'project'" %}
+{% assign projects = site.tags.project %}
+
 {% for project in projects %}
-<div class="mb-10 border-b"> 
+<div class="mb-10">
     <div class="prose">
         <h2 id="{{project.title | replace: " ", "_"}}" class=""> {{project.title}} </h2>
     </div>
@@ -11,23 +12,33 @@
     </div>
     {{project.company}}
 
+{% if project.clients.size > 0 %}
+    <!-- Do something if the array is not empty -->
+
+    <h1 class="text-lg text-slate-400 font-semibold mt-4 mb-1">Clients</h1>
+    <div class="">
+   {% for client in project.clients %}
+        <div class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-800 ring-1 ring-inset ring-yellow-600/20">{{ client }}</div>
+   {% endfor %}
+    </div>
+{% endif %}
     <h1 class="text-lg text-slate-400 font-semibold mt-4 mb-1">Techstack</h1>
     <div class="flex">
-   {% for t in project.tech %}
+   {% for tech in project.tech %}
     <div class="p-2 h-10 w-10 border-2 border-slate-100 rounded-md">
-        <a href="{{t.url}}">
-            <img title="{{t.name}}" class="object-center" src="{{t.image}}">
+        <a href="{{tech.url}}">
+            <img title="{{tech.name}}" class="object-center" src="{{tech.image}}">
         </a>
     </div>
    {% endfor %}
     </div>
 
+    <h1 class="text-lg text-slate-400 font-semibold mt-4 mb-1">AWS</h1>
     <div class="">
    {% for aws in project.aws %}
-        <div class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-800 ring-1 ring-inset ring-yellow-600/20">{{ aws }}</div>
+        <div class="inline-flex items-center rounded-md bg-amber-400 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-yellow-600/20">{{ aws }}</div>
    {% endfor %}
     </div>
 
 </div>
 {% endfor %}
-       

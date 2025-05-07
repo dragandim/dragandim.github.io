@@ -16,7 +16,7 @@ folder: mydoc
 ## {{ post.title }}
 
 #### {{ post.company }}
-_{{ post.startDate }} - {{ post.endDate }}_
+_{{ post.startDate | date: "%b %Y" }} - {{ post.endDate | date: "%b %Y" }}_
 
 {{ post.content }}
 
