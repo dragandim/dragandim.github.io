@@ -38,7 +38,11 @@ dribbble_username:
 spotify_username: 1140898604
 
 # PDF CV page
-cv_page: combined.md
+cv_page: cv_combined.md
+
+# PDF Portfolio page
+portfolio_page: portfolio_combined.md
+
 # Google Analytics
 google-analytics: G-5KQJ5V2HJ8
 

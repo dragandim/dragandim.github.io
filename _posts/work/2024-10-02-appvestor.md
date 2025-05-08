@@ -7,8 +7,6 @@ startDate: 2023-10-01
 endDate: 2025-01-31
 _startDate: 'Okt 2023'
 _endDate: 'Jan 2025'
-image: "/assets/images/Nordlid_logo_white_2019-300x50.png"
-description: "Senior Backend Developer"
 skills:
 - AWS
 - Nodejs

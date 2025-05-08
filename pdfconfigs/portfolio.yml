@@ -1,15 +1,12 @@
 # config pdf
 destination: _site/
 url: "http://127.0.0.1:4010"
-baseurl: "/mydoc-pdf"
+#baseurl: "/mydoc-pdf"
+baseurl: "/pdf-portfolio"
 port: 4010
-livereload: false
+livereload: true
 output: pdf
 product: mydoc
-print_title: Dragan Dimitrijevic
-print_document: Curriculum Vitae
-print_ocupation: Software Engineer
-print_subtitle: version 3.4
 output: pdf
 defaults:
   -

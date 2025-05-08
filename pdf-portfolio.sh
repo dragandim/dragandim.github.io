@@ -3,14 +3,14 @@
 # Step 1: Start Jekyll in detached mode using PDF config
 echo "🔧 Starting Jekyll with PDF config..."
 bundle exec jekyll serve \
-      --config _config.yml,pdfconfigs/config_mydoc_pdf.yml \
+      --config _config.yml,pdfconfigs/portfolio.yml \
       --detach \
       --port 4010
 
 # Step 2: Wait for the server to be available
 echo "⏳ Waiting for Jekyll to fully start..."
 for i in {1..10}; do
-  if curl --silent --head http://127.0.0.1:4010/mydoc-pdf/mydoc_about.html | grep "200 OK" > /dev/null; then
+  if curl --silent --head http://127.0.0.1:4010/pdf-portfolio/portfolio_combined.html | grep "200 OK" > /dev/null; then
     echo "✅ Jekyll is up."
     break
   fi
@@ -20,7 +20,7 @@ done
 # Step 3: Generate PDF with Prince
 echo "🖨️  Generating PDF..."
 prince --javascript \
-       --input-list=_site/pdfconfigs/prince-list.txt \
+       --input-list=_site/pdfconfigs/pdf-portfolio-list.yaml \
        -o pdf/portfolio.pdf
 
 

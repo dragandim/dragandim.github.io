@@ -8,8 +8,6 @@ endDate: 2017-11-31
 _startDate: 'Jul 2016'
 _endDate: 'Dec 2017'
 layout: work-experience
-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: Cheif Technology Officer at Globase
 skills:
 - Linux
 - Apache
@@ -38,15 +36,10 @@ At Globase, I led a development team of five engineers and helped support a clie
 My responsibilities included:
 
 * Leading the development team using Agile SCRUM practices
-
 * Maintaining and evolving internal platforms and client-specific solutions
-
 * Participating in pre-sales and requirements specification
-
 * Managing physical server infrastructure hosted in QSC (Germany)
-
 * Serving as a member of the company’s management group
-
 * Overseeing the migration of clients from the legacy V1 platform to the modernized V2
 
 This was a dynamic period marked by technical transformation and cultural shifts, as Globase transitioned from Ad Pepper Media ownership to MailUp (Growens).

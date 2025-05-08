@@ -55,19 +55,3 @@ The integration also supported batch segment pushes. From the segment view, user
 
 Additionally, the integration enabled device imports into Eloqua, storing device data in Custom Data Objects, and logging user interactions (e.g., opens, taps) as External Activities. These data points supported advanced segmentation and enabled more sophisticated user engagement strategies.
 
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
-</span>
-
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% endif %}

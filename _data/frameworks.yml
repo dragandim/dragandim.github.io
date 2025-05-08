@@ -1,39 +1,52 @@
 - name: Angular
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/angular-svgrepo-com.svg
 - name: Angular Material
   level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/angular-material-logo.png
 - name: React
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
+  image: /assets/images/react-logo.svg
 - name: MUI
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 60
+  image: /assets/images/react-mui-logo.svg
 - name: Ionic
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   level: 70
+  image: /assets/images/ionic-icon-svgrepo-com.svg
 - name: Express
   url: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  image: /assets/images/express-logo.svg
   level: 80
 - name: Sails
   level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/sails-logo.svg
 - name: TypeORM
   level: 60
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/typeorm-logo.svg
 - name: Sequelize
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/sequelize-logo.svg
 - name: Jest
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/jest-logo.svg
 - name: Laravel
   level: 80
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/laravel-logo.svg
 - name: Codeigniter
   level: 70
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/codeigniter-logo.svg
 - name: Jekyll
   level: 60
   url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image: /assets/images/jekyll-logo.svg

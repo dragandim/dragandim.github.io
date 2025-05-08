@@ -7,13 +7,12 @@ startDate: 2021-11-01
 endDate: 2023-03-31
 _startDate: 'Nov 2021'
 _endDate: 'Mar 2023'
-image: "/assets/images/Nordlid_logo_white_2019-300x50.png"
-description: "Software Engineer"
 skills:
 - Nodejs
 - Typescript
 - AWS
 - CDK
+- DynamoDB
 - React
 - Angular
 roles:

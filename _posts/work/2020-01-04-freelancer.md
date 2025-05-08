@@ -7,8 +7,6 @@ startDate: 2020-01-01
 endDate: 2021-10-31
 _startDate: 'Jan 2020'
 _endDate: 'Okt 2021'
-image: "/assets/images/Nordlid_logo_white_2019-300x50.png"
-description: "Software Engineer - Freelancer"
 skills:
 - Nodejs
 - AWS

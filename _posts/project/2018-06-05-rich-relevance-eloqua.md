@@ -43,25 +43,11 @@ Personalization was achieved using Eloqua’s Cloud Content feature, allowing ma
 Two types of personalized content were supported:
 
 _Recommend_
+
 The Recommend integration allowed marketers to configure personalized product suggestions. Through a user interface, they could search for products or categories using data pulled from Eloqua Custom Data Objects (CDOs). Visual presentation templates were also managed within Eloqua and made available via dropdown selectors. These templates, combined with selected product data, were used to construct the necessary parameters for dynamic content rendering within emails.
 
 _Engage_
+
 The Engage product followed a similar configuration flow but focused on serving personalized banners, ads, and promotional content. This type of content was simpler to manage, offering quick ways for marketers to enhance visual impact and user engagement within their campaigns.
 
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
-</span>
-
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% endif %}
 

@@ -7,8 +7,6 @@ startDate: 2013-03-01
 endDate: 2014-03-31
 _startDate: 'Mar 2013'
 _endDate: 'Mar 2014'
-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: Software Developer at Brandhouse.
 skills:
 - PHP
 - Apache

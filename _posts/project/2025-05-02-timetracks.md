@@ -37,27 +37,8 @@ cv_version: |
 A lightweight, headless, developer-centric time tracking platform designed to support individual users, teams, and automated workflows like CI/CD pipelines.
 
 * Built a full-stack web application with Node.js (Express), DynamoDB on AWS (API Gateway, Lambda, CDK)
-
 * Implemented multi-tenant support, JWT-based authentication, and token-scoped API access for secure, scalable usage
-
 * Designed the system to support both manual time entry and automated tracking for background jobs and deployments
-
 * Developed OpenAPI-based documentation and integrated Redocly for developer-friendly API references
 
 Launched open beta with early user adoption and a lifetime-free offer for early signups
-
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.express-image}}"> Express
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.cdk-image}}"> CDK
-</span>
-
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-{% endif %}

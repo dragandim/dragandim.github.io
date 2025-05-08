@@ -10,7 +10,7 @@ bundle exec jekyll serve \
 # Step 2: Wait for the server to be available
 echo "⏳ Waiting for Jekyll to fully start..."
 for i in {1..10}; do
-  if curl --silent --head http://127.0.0.1:4010/pdf-cv/combined.html | grep "200 OK" > /dev/null; then
+  if curl --silent --head http://127.0.0.1:4010/pdf-cv/cv_combined.html | grep "200 OK" > /dev/null; then
     echo "✅ Jekyll is up."
     break
   fi

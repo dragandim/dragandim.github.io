@@ -1,0 +1,7 @@
+---
+layout: none
+---
+
+{{ site.url }}{{ site.baseurl }}/{{ site.portfolio_page | replace: '.md', '.html' }}
+
+

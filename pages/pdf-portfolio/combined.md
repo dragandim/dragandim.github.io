@@ -1,9 +1,10 @@
 ---
-layout: cv_print
-permalink: cv_combined.html
+layout: portfolio_print
+permalink: portfolio_combined.html
 title: Curriculum Vitae
 ---
 
+{% include_relative title.md %}
 {% include_relative about.md %}
 {% include_relative work_experiences.md %}
 {% include_relative projects.md %}

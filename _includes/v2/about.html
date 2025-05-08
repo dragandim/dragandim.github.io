@@ -1,20 +1,24 @@
-<div class="flex items-center justify-center">
+<div class="page" >
 
-    <div class="bg-white p-4 flex-col">
+    <h1>About Me</h1>
 
-        <div class="">
-            <section class="flex items-center justify-center">
-                <img class="" src="{{site.data.about.image}}"/>
-            </section>
-        </div>
-        <div class="xl:px-14 lg:p-10 md:p-8 sm:p-6">
-            <div class="prose lg:prose-lg md:prose-md">
-                <p class="">{{site.data.about.description-0}}</p>
-                <p class="">{{site.data.about.description-1}}</p>
-                <p class="">{{site.data.about.description-2}}</p>
+    <h3>{{site.data.about.name}}</h3>
+    <p class="italic">{{site.data.about.ocupation}}</p>
+
+    <div class="flex-col">
+
+        <section class="flex items-center justify-center py-6">
+            <img class="" src="{{site.data.about.image}}"/>
+        </section>
+
+        <div>
+            <div class="prose prose-slate w-full max-w-none mx-auto mb-4">
+                {% for paragraph in site.data.about.paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
             </div>
 
-            <div class="prose lg:prose-lg md:prose-md pt-6">
+            <div class="prose lg:prose-lg md:prose-md ">
                 <span class="icon-text pr-2">
                     <span class="icon">
                         <i class="fa fa-envelope"></i>
@@ -28,9 +32,7 @@
                     <span>{{site.data.about.mobile}}</span>
                 </span>
             </div>
-
         </div>
 
     </div>
-
 </div>

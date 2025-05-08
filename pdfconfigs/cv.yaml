@@ -2,7 +2,7 @@ destination: _site/
 url: "http://127.0.0.1:4010"
 baseurl: "/pdf-cv"
 port: 4010
-livereload: false
+livereload: true
 output: pdf
 product: mydoc
 defaults:

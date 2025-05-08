@@ -4,3 +4,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-gray-900 mt-10 mb-4 leading-tight tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold text-gray-800 mt-8 mb-3 leading-snug tracking-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-medium text-gray-700 mt-6 mb-2 leading-snug;
+  }
+
+  p {
+    @apply text-base text-gray-700 leading-relaxed mb-4;
+  }
+
+  ul {
+    @apply list-disc list-inside mb-4 text-base text-gray-700;
+  }
+
+  li {
+    @apply mb-1;
+  }
+
+  strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  em {
+    @apply italic text-gray-700;
+  }
+
+  a {
+    @apply text-blue-600 underline hover:text-blue-800 transition-colors;
+  }
+
+  blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4;
+  }
+
+  code {
+    @apply bg-gray-100 text-sm text-pink-700 font-mono px-1 py-0.5 rounded;
+  }
+
+  pre {
+    @apply bg-gray-900 text-white p-4 rounded overflow-x-auto text-sm;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply w-full flex items-center justify-between bg-slate-800 text-white px-6 py-3 shadow-md z-50;
+  }
+  .navbar a {
+    @apply text-white hover:text-blue-300 transition-colors no-underline;
+  }
+  .page {
+      @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+}

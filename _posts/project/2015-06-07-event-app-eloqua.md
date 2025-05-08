@@ -47,22 +47,3 @@ Once a campaign is activated, Contacts in the segment receive an invitation emai
 
 To maintain consistent branding and reduce setup time, the application supports reusable Asset Templates for emails and landing pages. This enables high levels of customization and reusability across events.
 
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.jquery-image}}"> jQuery
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.sails-image}}"> Sails
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.docker-image}}"> Docker
-</span>
-
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% endif %}

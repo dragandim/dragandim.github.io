@@ -53,20 +53,3 @@ A standout feature of this solution was the integration of the Mustache templati
 Message delivery status was tracked through a callback-based reporting mechanism, allowing contacts to be flagged as successful or failed based on delivery outcomes. This data was then synced back into Eloqua for tracking and analytics.
 
 Overall, the integration streamlined SMS functionality within Eloqua, giving marketers a seamless, scalable way to incorporate SMS into their multi-channel campaign strategies.
-
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.angular-image}}"> Angular
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
-</span>
-        
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% endif %}

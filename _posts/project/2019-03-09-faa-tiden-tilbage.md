@@ -42,20 +42,3 @@ In the initial release, the app allowed passengers to check in at the start of t
 Once users reached a certain credit threshold, they could redeem their minutes for in-app ticket purchases. The second release introduced a route selection and ticketing system: users could choose from eligible destinations, redeem credits for a QR-code ticket, and store it for future travel. These tickets were fully compatible with DSB’s on-board scanners for validation.
 
 The project was recognized with a Danish Digital Award in the ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/) category, acknowledging its innovation and positive public impact.
-
-{% if site.pdf_sidebar == "mydoc_sidebar" %}
-### Techstack
-<span class="label label-default">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.nodejs-image}}"> Nodejs
-</span>
-<span class="label label-info">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.ionic-image}}"> Ionic
-</span>
-<span class="label label-primary">
-    <img class="tech-badge" src="/mydoc-pdf{{site.data.vars.serverless-image}}"> serverless
-</span>
-
-<img class="tech-badge" src="/mydoc-pdf{{site.data.vars.aws-image}}">{% for aws in page.aws %}
-<span class="label label-warning"> {{aws}} </span>{% endfor %}
-
-{% endif %}
