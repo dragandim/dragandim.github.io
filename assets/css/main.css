@@ -57,12 +57,12 @@
 
 @layer components {
   .navbar {
-    @apply w-full flex items-center justify-between bg-slate-800 text-white px-6 py-3 shadow-md z-50;
+    @apply container mx-auto flex items-center justify-between bg-slate-800 text-white px-6 py-3 shadow-lg z-50 ;
   }
   .navbar a {
     @apply text-white hover:text-blue-300 transition-colors no-underline;
   }
   .page {
-      @apply bg-white  rounded-lg max-w-6xl mx-auto p-4 sm:px-4 md:px-6 lg:px-8 2xl:px-20 xl:px-10 lg:px-20 md:px-20 sm:px-10;
+      @apply bg-white rounded-lg max-w-6xl mx-auto p-4 sm:px-4 md:px-6 lg:px-8 2xl:px-20 xl:px-10 lg:px-20 md:px-20 sm:px-10;
   }
 }
