@@ -1,6 +1,6 @@
 ---
 title: About
-layout: v2/standard
+layout: standard
 ---
 
-{% include v2/about.html %}
+{% include about.html %}

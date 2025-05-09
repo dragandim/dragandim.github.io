@@ -1,7 +1,7 @@
 ---
 title: Project
-layout: v2/standard
+layout: standard
 ---
 
-{% include v2/project.html %}
+{% include project.html %}
 

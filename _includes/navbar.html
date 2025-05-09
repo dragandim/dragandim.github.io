@@ -1,60 +1,26 @@
-<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
-    <div class="container">
-
-        <!-- logo or branding image on left side -->
-        <div class="navbar-brand">
-            <a class="navbar-item"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
-            </a>
-            <div class="navbar-burger" data-target="navbar-menu">
-                <span></span>
-                <span></span>
-                <span></span>
+{% assign color = "text-indigo-400" %}
+<nav class="navbar">
+    <a href="/"><div class="font-bold">{{site.data.about.name}}</div></a>
+    <div class="flex items-start p-2">
+        <a href="/about">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'About' %}{{ color }}{% endif %}">
+               About
             </div>
-        </div>
-
-        <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
-        <div class="navbar-menu has-background-black" id="navbar-menu">
-            <!-- navbar items | left side -->
-            <!-- <div class="navbar-start">
-            </div> -->
-            <!-- navbar items | right side -->
-            <div class="navbar-end">
-                <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
-                    href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">About</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#skills">Skills</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">Contact</a>
-                <a class="navbar-item {% if page.layout == 'work-experiences' or page.layout == 'work-experience' %}is-active{% endif %}"
-                   href="{{site.url}}{{site.baseurl}}/work-experiences/">Work Experience</a>
-                <a class="navbar-item {% if page.layout == 'projects' or page.layout == 'project' %}is-active{% endif %}"
-                   href="{{site.url}}{{site.baseurl}}/projects/">Projects </a>
-                {% comment %}
-                  {% include dropdown.html %}
-                {% endcomment %}
+        </a>
+        <a href="/work-experience">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Work Experience' %}{{ color }}{% endif %}">
+               Work experience
             </div>
-        </div>
+        </a>
+        <a href="/projects">
+            <div class="mx-2 hover:{{ color }} font-semibold  {% if page.title == 'Project' %}{{ color }}{% endif %}">
+               Projects
+            </div>
+        </a>
+        <a href="/skills">
+            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Skills' %}{{ color }}{% endif %}"">
+               Skills
+            </div>
+        </a>
     </div>
 </nav>
-<!-- Bulma Navbar JS -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        /* Get all "navbar-burger" elements */
-        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-        /* Check if there are any navbar burgers */
-        if ($navbarBurgers.length > 0) {
-            /* Add a click event on each of them */
-            $navbarBurgers.forEach(function ($el) {
-                $el.addEventListener('click', function () {
-                    /* Get the target from the "data-target" attribute */
-                    var target = $el.dataset.target;
-                    var $target = document.getElementById(target);
-                    /* Toggle the class on both the "navbar-burger" and the "navbar-menu" */
-                    $el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
-                });
-            });
-        }
-    });
-</script>

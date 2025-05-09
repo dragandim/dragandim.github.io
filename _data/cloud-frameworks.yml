@@ -5,7 +5,7 @@
 - name: AWS SAM
   level: 80
   image: /assets/images/aws-sam-logo.png
-  url: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  url: https://aws.amazon.com/serverless/sam
 - name: AWS CDK
   level: 70
   image: /assets/images/cdk-logo.svg

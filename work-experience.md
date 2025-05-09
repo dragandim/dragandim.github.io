@@ -1,6 +1,6 @@
 ---
 title: Work Experience
-layout: v2/standard
+layout: standard
 ---
 
-{% include v2/work-experience.html %}
+{% include work-experience.html %}

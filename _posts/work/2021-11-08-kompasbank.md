@@ -1,12 +1,10 @@
 ---
 title: Software Engineer
+layout: standard
 company: kompasbank
 place: Copenhagen
-layout: work-experience
 startDate: 2021-11-01
 endDate: 2023-03-31
-_startDate: 'Nov 2021'
-_endDate: 'Mar 2023'
 skills:
 - Nodejs
 - Typescript

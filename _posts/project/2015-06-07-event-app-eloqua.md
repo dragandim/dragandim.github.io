@@ -1,8 +1,6 @@
 ---
 title: Event App
-layout: project
-image: "/assets/images/britt-gaiser-hSAlu33padA-unsplash.jpg"
-description: Eloqua integration project for creating event flows and assets
+layout: standard
 tags:
 - project
 - eloqua

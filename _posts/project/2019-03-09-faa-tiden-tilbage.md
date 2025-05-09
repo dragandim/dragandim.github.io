@@ -1,8 +1,6 @@
 ---
 title: Få tiden tilbage
-layout: project
-image: "/assets/images/faa-tiden-tilbage-overview.png"
-description: Få tiden tilbage project
+layout: standard
 tags:
 - project
 - campaign

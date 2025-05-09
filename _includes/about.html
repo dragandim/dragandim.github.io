@@ -1,41 +1,36 @@
-<section class="hero is-fullheight has-background-white" id="about">
-    <div class="hero-body">
-        <div class="container">
-            <br/>
-            <div class="columns box">
-                <div class="column is-one-third">
-                    <div class="box_">
-                        <figure class="image">
-                            <img class="" src="{{site.data.about.image}}" alt="{{site.author-name}}">
-                        </figure>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="content">
-                        <h2 class="subtitle is-2"> {{site.data.about.ocupation}}</h2>
-                        <h5 class="subtitle is-5"> {{site.data.about.name}}</h5>
-                        <h6 class="subtitle is-6"> 
-                            <span class="icon-text">
-                                <span class="icon">
-                                    <i class="fa fa-envelope"></i>
-                                </span>
-                                <span>{{site.email}}</span>
-                            </span>                        
-                            <span class="icon-text">
-                                <span class="icon">
-                                    <i class="fa fa-phone"></i>
-                                </span>
-                                <span>{{site.data.about.mobile}}</span>
-                            </span>                    
-                        </h6>
-                        <div class="block">{{site.data.about.description-0}}</div>
-                        <div class="block">{{site.data.about.description-1}}</div>
-                        <div class="block">{{site.data.about.description-2}}</div>
-                    </div>
-                </div>
-            </div>
-        
+<h1>About Me</h1>
+
+<h3>{{site.data.about.name}}</h3>
+<p class="italic">{{site.data.about.ocupation}}</p>
+
+<div class="flex-col">
+
+    <section class="flex items-center justify-center py-6">
+        <img class="" src="{{site.data.about.image}}"/>
+    </section>
+
+    <div>
+        <div class="prose prose-slate w-full max-w-none mx-auto mb-4">
+                {% for paragraph in site.data.about.paragraphs %}
+            <p>{{ paragraph }}</p>
+                {% endfor %}
+        </div>
+
+        <div class="prose lg:prose-lg md:prose-md ">
+            <span class="icon-text pr-2">
+                <span class="icon">
+                    <i class="fa fa-envelope"></i>
+                </span>
+                <span>{{site.email}}</span>
+            </span>
+            <span class="icon-text">
+                <span class="icon">
+                    <i class="fa fa-phone"></i>
+                </span>
+                <span>{{site.data.about.mobile}}</span>
+            </span>
         </div>
     </div>
 
-</section>
+</div>
+

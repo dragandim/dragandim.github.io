@@ -1,13 +1,10 @@
 ---
 title: CTO
+layout: standard
 company: Globase International
 place: Copenhagen
-layout: work-experience
 startDate: 2016-07-01
 endDate: 2017-11-31
-_startDate: 'Jul 2016'
-_endDate: 'Dec 2017'
-layout: work-experience
 skills:
 - Linux
 - Apache

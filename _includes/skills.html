@@ -1,40 +1,48 @@
-<section class="hero is-fullheight has-background-white-bis" id="skills">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns ">
-                <div class="column has-text-centered">
-                    <h4 class="subtitle is-2"> Skills </h4>
-                </div>
-            </div>
-            <br>
-            <div class="columns">
-                <div class="column is-half has-background-grey-light_ " >
 
-                    {% for skill in site.data.skills limit: 6 %}
-                        <h6 class="subtitle is-6 mb-0"> {{skill.name}}</h6>
-                        <progress class="progress is-small" value="{{skill.level}}" max="100">{{skill.level }}%</progress>
-                    {% endfor %}
+<h1>Skills</h1>
 
-                </div>
-                <div class="column" style="margin:0">
-
-                    <h4 class="subtitle is-5"> Frameworks: </h4>
-                    <div class="tags">
-                     {% for framework in site.data.frameworks %}
-                        <div class="tag is-info is-medium ">{{ framework.name }}</div>
-                      {% endfor %}
-                    </div>
-
-                    <h4 class="subtitle is-5"> AWS: </h4>
-                    <div class="tags ">
-                     {% for aws in site.data.aws %}
-                        <span class="tag is-warning is-medium ">{{ aws.name }}</span>
-                      {% endfor %}
-                    </div>
-
-                </div>
-            </div>
+<h3>Tech</h3>
+<div class="py-10">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+       {% for skill in site.data.skills limit: 12 %}
+        <div class="flex flex-col items-center space-y-2">
+            <a href="{{ skill.url }}" title="{{ skill.name }}">
+                <img src="{{skill.image}}" alt="{{skill.name}}" class="h-16 w-16" />
+            </a>
+            <span class="text-sm font-medium">{{skill.name}}</span>
         </div>
+       {% endfor %}
     </div>
+</div>
 
-</section>
+<h3>CI/CD & Cloud Tools</h3>
+<div class="my-10">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        {% for framework in site.data.cloud-frameworks %}
+        <div class="flex flex-col items-center space-y-2">
+            <a href="{{ framework.url }}" title="{{ framework.name }}">
+                <img src="{{framework.image}}" alt="Serverless" class="h-16 w-16" />
+            </a>
+            <span class="text-sm font-medium">{{framework.name}}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<h3>Frameworks</h3>
+<div class="my-10">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+        {% for fw in site.data.frameworks %}
+        <div class="flex flex-col items-center text-center space-y-2">
+            <a href="{{ fw.url }}" title="{{ fw.name }}">
+                <img src="{{ fw.image }}" alt="{{ fw.name }}" class="w-16 h-16" />
+            </a>
+            <span class="font-medium">{{ fw.name }}</span>
+            {% if fw.level %}
+            <span class="text-xs text-gray-500 italic">Level: {{ fw.level }}%</span>
+            {% endif %}
+        </div>
+         {% endfor %}
+    </div>
+</div>
+

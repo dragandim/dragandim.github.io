@@ -1,13 +1,8 @@
-# config pdf
 destination: _site/
 url: "http://127.0.0.1:4010"
-#baseurl: "/mydoc-pdf"
 baseurl: "/pdf-portfolio"
 port: 4010
-livereload: true
-output: pdf
-product: mydoc
-output: pdf
+livereload: false
 defaults:
   -
     scope:
@@ -15,7 +10,5 @@ defaults:
       type: "pages"
     values:
       layout: "page_print"
-      comments: true
-      search: true
 
-pdf_sidebar: mydoc_sidebar
+

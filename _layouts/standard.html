@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html class="scroll-smooth">
-  {% include v2/head.html %}
+  {% include head.html %}
 
     <body class="bg-no-repeat bg-center bg-cover bg-fixed" style="background-image: url('{{site.heroimage}}')">
         <div class="flex sticky top-0 bg-slate-700">
-            {% include v2/navbar.html %}
+            {% include navbar.html %}
         </div>
 
-        <div class="container min-h-[calc(100vh-65px)] mx-auto bg-white 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-10 py-20">
+        <div class="page container min-h-[calc(100vh-65px)] ">
             {{ content }}
         </div>
     </body>

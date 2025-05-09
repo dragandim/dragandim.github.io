@@ -1,8 +1,6 @@
 ---
 title: Rich Relevance
-layout: project
-image: "/assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg"
-description: Development of an Eloqua Application which handles the content from Rich Relevance Personalization platform
+layout: standard
 tags:
 - project
 - eloqua

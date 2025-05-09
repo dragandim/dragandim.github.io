@@ -1,12 +1,10 @@
 ---
 title: Senior Backend Developer
+layout: standard
 company: Appvestor
 place: Copenhagen
-layout: work-experience
 startDate: 2023-10-01
 endDate: 2025-01-31
-_startDate: 'Okt 2023'
-_endDate: 'Jan 2025'
 skills:
 - AWS
 - Nodejs

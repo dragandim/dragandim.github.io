@@ -1,12 +1,10 @@
 ---
 title: Software Engineer
+layout: standard
 company: Freelancer
 place: Copenhagen
-layout: work-experience
 startDate: 2020-01-01
 endDate: 2021-10-31
-_startDate: 'Jan 2020'
-_endDate: 'Okt 2021'
 skills:
 - Nodejs
 - AWS

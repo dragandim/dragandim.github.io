@@ -1,8 +1,6 @@
 ---
 title: TimeTracks
-layout: project
-image: "/assets/images/airship-uss-macon.jpeg"
-description: Airship Eloqua Integration Project
+layout: standard
 tags:
 - project
 - eloqua

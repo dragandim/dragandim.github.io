@@ -1,6 +1,6 @@
 ---
 title: Skills
-layout: v2/standard
+layout: standard
 ---
 
-{% include v2/skills.html %}
+{% include skills.html %}
