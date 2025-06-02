@@ -34,6 +34,7 @@ cv_version: |
     - Built drag-and-drop push messaging for Eloqua using Airship Cloud Actions
     - Handled both real-time contact payloads and batch contact retrieval for different campaign modes
     - Enabled device imports into Eloqua via **Custom Data Objects**, and logged push interaction events as **External Activities** for segmentation and reporting
+cv_skip: false
 ---
 
 This integration project enabled Oracle Eloqua to send push notifications via [Airship](https://www.airship.com/),a multi-channel messaging platform. The solution supported several key use cases:

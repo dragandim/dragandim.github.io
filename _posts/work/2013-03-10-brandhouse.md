@@ -18,8 +18,6 @@ categories:
 - work-experience
 cv_version: |
     - Contributed to the development of **Publicator**, a graphic design and print platform
-    - Integrated external data sources and implemented custom feature requests
-    - Collaborated directly with clients to gather and refine requirements
 ---
 
 At Brandhouse, I had the opportunity to work on Publicator, a platform designed for graphic design and print. My responsibilities included integrating external data sources, implementing new feature requests, and gathering requirements directly from customers.

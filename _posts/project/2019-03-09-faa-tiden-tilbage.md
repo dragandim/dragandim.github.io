@@ -31,6 +31,7 @@ cv_version: |
     - Implemented a check-in/checkout flow that tracked journeys and awarded credits based on predefined route rules
     - Introduced in-app ticketing functionality with credit redemption, route selection, and QR-code validation compatible with DSB scanners
     - The project received a **Danish Digital Award** in the ["Digital Activation"](https://danishdigitalaward.dk/projekt/faa-tiden-tilbage-3/) category for its innovative public impact
+cv_skip: false
 ---
 
 Få tiden tilbage was a six-month project developed for DSB, the Danish public transportation company. The concept focused on compensating passengers affected by railway maintenance delays by returning time as a form of value.

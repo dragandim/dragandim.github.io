@@ -35,6 +35,7 @@ cv_version: |
     - Integrated assets into campaign canvas flows to support invitations, registrations, cancellations, and waiting list handling
     - Enabled participant status tracking (registered, attended, unregistered, waiting) via Eloqua processing steps and CDO updates
     - Supported reusable **Asset Templates** for emails and landing pages to ensure brand consistency and reduce setup time
+cv_skip: true
 ---
 
 The primary goal of this project was to build an application that simplifies and streamlines event management in Oracle Eloqua. Creating event flows manually in Eloqua is often repetitive and time-consuming. This application was designed to automate that process — enabling marketers to set up event logic and required assets with minimal manual effort.

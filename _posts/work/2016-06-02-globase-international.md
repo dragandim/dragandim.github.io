@@ -13,19 +13,14 @@ skills:
 - Nodejs
 - Express
 - ActiveMQ
-- Vagrant
-- Ansible
 tags:
 - work
 categories:
 - work-experience
 cv_version: |
-    - Led a team of five developers in building and maintaining a SaaS Email Marketing Automation platform used by over 100 clients, including Mercedes-Benz, Bang & Olufsen, 3M, DFDS and Grundfos
+    - Led five developers in building and maintaining a SaaS Email Marketing Automation platform used by over 100 clients, including Mercedes-Benz, Bang & Olufsen, 3M, DFDS and Grundfos
     - Managed client-specific custom solutions, microsites, and landing pages alongside the core platform
-    - Participated in pre-sales activities and requirements gathering for enterprise clients
-    - Administered server infrastructure hosted in QSC (Germany)
-    - Migrated key clients from legacy V1 platform to modernized V2 system
-    - Served on the company’s management team during the post-acquisition transition to Growens
+    - Oversaw key client migrations and infrastructure.
 ---
 
 At Globase, I led a development team of five engineers and helped support a client portfolio of over 100 companies, including Mercedes-Benz, Bang & Olufsen, 3M, Grundfos, DFDS, and Cognito. The core product was a SaaS Email Marketing Automation platform, complemented by a suite of custom solutions, microsites, and landing pages.

@@ -22,7 +22,6 @@ cv_version: |
     - Led backend development for **Doralytics**, optimizing reporting pipelines and infrastructure
     - Migrated `finance.appvestor.com` from PostgreSQL to MySQL
     - Replaced Google API workflows with **AWS Step Functions**
-    - Built Lambda functions for campaign attribution
     - Developed an OpenAPI-based REST API in Python/Flask
 ---
 

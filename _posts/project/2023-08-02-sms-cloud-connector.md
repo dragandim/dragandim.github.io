@@ -36,6 +36,7 @@ cv_version: |
     - Implemented dynamic message templating using the **Mustache** engine, supporting personalized content and JSON field merging
     - Designed a callback-based reporting system to track delivery status and sync outcomes back into Eloqua for analytics
     - Empowered marketers to seamlessly add SMS to multi-channel campaigns using a simple drag-and-drop interface in the Eloqua canvas
+cv_skip: false
 ---
 
 Since Eloqua primarily focuses on email marketing and campaign management, it does not include SMS messaging as a native feature. To address this limitation, I partnered with my client to develop a custom Eloqua application that integrates with three major SMS providers:

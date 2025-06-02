@@ -32,6 +32,7 @@ cv_version: |
     - Implemented **Recommend** integration to deliver product suggestions using data from Eloqua CDOs and user-defined templates
     - Developed UI components allowing marketers to search product catalogs and configure layout options within Eloqua
     - Integrated **Engage** content for personalized banners and promotional messaging, improving engagement through targeted visual content
+cv_skip: true
 ---
 
 The objective of this project was to integrate the Rich Relevance Customer Experience and Personalization Platform into Oracle Eloqua as a standard application. The integration leveraged Rich Relevance’s Recommend and Engage products to deliver personalized content within Eloqua email campaigns.

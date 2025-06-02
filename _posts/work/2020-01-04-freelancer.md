@@ -20,8 +20,8 @@ categories:
 - work-experience
 cv_version: |
     - Independently delivered custom backend solutions for clients as a freelance developer since 2020
-    - Delivered full-cycle backend solutions while managing client communication, agile workflows, and production deployment
     - Developed an enterprise-grade **Airship** push messaging integration for **Oracle Eloqua**, enabling push notifications via Eloqua's Campaign Builder
+    - Developed an enterprise-grade **SMS Cloud Connector** messaging integration for **Oracle Eloqua**
 ---
 
 In early 2020, I began working as a freelance developer — a journey that’s been both deeply rewarding and occasionally challenging. This period has allowed me to expand my technical skills, manage projects independently, and work closely with clients to deliver real-world solutions.

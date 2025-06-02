@@ -1,7 +1,7 @@
 
 # Projects
 
-{% assign project_posts = site.tags.project %}
+{% assign project_posts = site.tags.project | where_exp: "item", "item.cv_skip != true" %}
 
 {% for post in project_posts %}
 

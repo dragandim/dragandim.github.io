@@ -22,10 +22,7 @@ categories:
 cv_version: |
     - Built and maintained an internal **Lead Generation** platform used by sales and risk teams to identify creditworthy companies based on ML analysis of annual reports and financial data
     - Integrated feedback loops from sales into a scoring system to minimize credit risk exposure
-    - Contributed to the **credit automation** system, integrating Muinmos (onboarding/KYC) with a credit approval REST API and CRM (nCino/Salesforce)
-    - Designed workflows using **AWS Step Functions** for end-to-end orchestration of KYC, AML, PEP checks, and financial approvals
-    - Developed full-stack components and cloud infrastructure using **Node.js**, **TypeScript**, and AWS CDK
-    _Established automated, risk-aware credit approval flows and improved operational efficiency across departments._
+    - Contributed to the **credit automation** system, using **AWS Step Functions**, integrating Muinmos (onboarding/KYC) and CRM (nCino/Salesforce)
 ---
 
 This was my first role in a fintech industry. I worked on an in house Lead Generation application. It is a tool developed primarily for the sales team but it is used throughout the organization.

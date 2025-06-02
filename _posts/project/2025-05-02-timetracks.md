@@ -29,7 +29,7 @@ cv_version: |
     - Implemented multi-tenant support, JWT-based authentication, and scoped token access for secure API usage
     - Designed the system to support both manual time entry and automated tracking for background jobs and deployments
     - Created OpenAPI documentation and integrated Redocly for a developer-friendly API experience
-    - Launched an open beta with early user adoption and a lifetime-free plan for initial signups
+cv_skip: false
 ---
 
 A lightweight, headless, developer-centric time tracking platform designed to support individual users, teams, and automated workflows like CI/CD pipelines.
