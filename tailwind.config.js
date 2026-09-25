@@ -38,7 +38,7 @@ module.exports = {
             '--tw-prose-links':        theme('colors.site.accent'),
             '--tw-prose-bold':         theme('colors.site.text'),
             '--tw-prose-counters':     theme('colors.site.muted'),
-            '--tw-prose-bullets':      theme('colors.site.border'),
+            '--tw-prose-bullets':      theme('colors.site.accent-2'),
             '--tw-prose-hr':           theme('colors.site.border'),
             '--tw-prose-quotes':       theme('colors.site.text'),
             '--tw-prose-quote-borders':theme('colors.site.border'),
