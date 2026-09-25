@@ -14,6 +14,7 @@ skills:
 roles:
 - Solution Architech
 - Requirement Specification
+cv_include: true
 tags:
 - work
 categories:

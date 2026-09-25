@@ -4,60 +4,208 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    h1 {
-        @apply text-xl font-bold mt-6 mb-2 tracking-tight border-b border-gray-300 pb-1 print:text-base print:mt-4 print:mb-1;
-    }
-    h2 {
-        @apply text-lg font-semibold mt-6 mb-2 tracking-tight print:text-sm print:mt-4 print:mb-1;
-    }
-    h3 {
-        @apply text-lg font-medium mt-5 mb-1 tracking-normal text-gray-800 print:text-xs print:mt-3 print:mb-1;
-    }
-    p {
-        @apply text-sm leading-relaxed mb-2 print:mb-1;
-    }
-    ul {
-        @apply list-disc ml-5 text-sm mb-4 print:mb-2;
-    }
-    li {
-        @apply mb-1 print:mb-0.5;
-    }
-    strong {
-        @apply font-semibold;
-    }
-    em {
-        @apply italic;
-    }
-    a {
-        @apply text-blue-400 underline hover:text-blue-800;
-    }
-    @media print {
-        a {
-            color: #3b82f6 !important;
-            text-decoration: none !important;
-            -prince-pdf-color-adjust: exact;
-        }
-        .print\:break-after-page {
-            page-break-after: always;
-        }
-    }
-    /* CV Styling */
-    body.cv {
-        @apply text-gray-800 bg-gray-100 font-sans text-sm print:bg-white;
-    }
+/* ============================================================
+   Prince XML page setup — A4, running footer with page numbers
+   ============================================================ */
+@page {
+  size: A4;
+  margin: 16mm 20mm 22mm 20mm;
+}
 
-    main.cv-container {
-        @apply max-w-3xl mx-auto px-6 py-6 bg-gray-50 print:bg-white print:px-4 print:py-4;
-    }
+@page {
+  @bottom-center {
+    content: "Dragan Dimitrijevic  ·  dragandimitrijevic.com  ·  Page " counter(page) " of " counter(pages);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 7.5pt;
+    color: #9CA3AF;
+  }
+}
 
-    /* Portfolio Styling */
-    body.portfolio {
-        @apply text-gray-800 bg-gray-100 font-sans text-sm print:bg-white;
-    }
+/* ============================================================
+   Base reset
+   ============================================================ */
+* {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  box-sizing: border-box;
+}
 
-    main.portfolio-container {
-        @apply max-w-5xl mx-auto px-8 py-6 bg-white print:px-4 print:py-4;
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111827;
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.45;
+}
 
+/* ============================================================
+   CV-specific styles
+   ============================================================ */
+
+/* --- Header ------------------------------------------------- */
+.cv-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 1.5rem;
+  padding-bottom: 10pt;
+  border-bottom: 2px solid #1F6FEB;
+  margin-bottom: 14pt;
+}
+
+.cv-header-name {
+  font-family: "Syne", sans-serif;
+  font-size: 22pt;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.1;
+  margin: 0 0 3pt 0;
+}
+
+.cv-header-role {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 8.5pt;
+  color: #1F6FEB;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.cv-header-contact {
+  text-align: right;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 8pt;
+  color: #374151;
+  line-height: 1.85;
+}
+
+.cv-header-contact a {
+  color: #1F6FEB;
+  text-decoration: none;
+}
+
+/* --- Summary ------------------------------------------------ */
+.cv-summary {
+  font-size: 9pt;
+  color: #374151;
+  line-height: 1.55;
+  margin: 0 0 12pt 0;
+  max-width: 92%;
+}
+
+/* --- Section headings --------------------------------------- */
+h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #1F6FEB;
+  margin: 13pt 0 6pt 0;
+  padding-bottom: 3pt;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* --- Work experience entries -------------------------------- */
+.work-entry {
+  margin-bottom: 9pt;
+  page-break-inside: avoid;
+}
+
+.work-entry-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 2pt;
+}
+
+.work-title {
+  font-size: 9.5pt;
+  font-weight: 600;
+  color: #111827;
+}
+
+.work-company {
+  font-size: 9pt;
+  color: #4B5563;
+}
+
+.work-date {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5pt;
+  color: #6B7280;
+  white-space: nowrap;
+}
+
+.work-content ul {
+  margin: 3pt 0 0 0;
+  padding-left: 13pt;
+  list-style-type: disc;
+}
+
+.work-content li {
+  font-size: 8.5pt;
+  line-height: 1.42;
+  margin-bottom: 2pt;
+  color: #374151;
+}
+
+/* --- Skills ------------------------------------------------- */
+.skills-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16pt;
+  row-gap: 5pt;
+}
+
+.skill-group {
+  margin: 0;
+}
+
+.skill-group-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7pt;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #6B7280;
+  margin-bottom: 1.5pt;
+}
+
+.skill-group-items {
+  font-size: 8.5pt;
+  color: #374151;
+  line-height: 1.5;
+}
+
+/* --- Education ---------------------------------------------- */
+.education-entry {
+  margin-bottom: 5pt;
+  page-break-inside: avoid;
+}
+
+.education-title {
+  font-size: 9pt;
+  font-weight: 600;
+  color: #111827;
+}
+
+.education-meta {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5pt;
+  color: #6B7280;
+  margin-top: 1pt;
+}
+
+/* --- Portfolio container ------------------------------------ */
+body.portfolio {
+  font-size: 9pt;
+}
+
+main.portfolio-container {
+  max-width: 190mm;
+  margin: 0 auto;
+  padding: 0;
 }

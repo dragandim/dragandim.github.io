@@ -1,14 +1,73 @@
-<div class="flex items-center justify-center h-[calc(100vh-65px)]">
+<!-- Dot grid background -->
+<style>
+  .hero-section {
+    background-image: radial-gradient(circle, #30363D 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+</style>
 
-    <div class="p-4 mx-auto place-items-center p-12 ">
-        <p class="text-white text-3xl font-extrabold underline lg:text-4xl md:text-3xl sm:text-lg"> {{site.data.about.name}} - {{site.data.about.ocupation}} </p>
-        <p class="text-white font-bold p-4 xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg font-headline"> Online portfolio </p>
-        <div class="flex items-center px-4">
+<section class="hero-section relative min-h-[calc(100vh-65px)] flex items-center">
+  <!-- Fade overlay so content reads clearly -->
+  <div class="absolute inset-0 bg-gradient-to-b from-site-bg/60 via-transparent to-site-bg pointer-events-none"></div>
 
-            <a class="no-underline" href="/about"> <div class="text-white bg-slate-800 m-2 p-4 border border-black rounded-lg hover:text-blue-300 transition-colors"> Read more </div> </a>
-            <a class="no-underline" href="/pdf/cv.pdf"> <div class="text-white bg-slate-800 m-2 p-4 border border-black rounded-lg hover:text-blue-300 transition-colors"> Download CV </div> </a>
-            <a class="no-underline" href="/pdf/portfolio.pdf"> <div class="text-white bg-slate-800 m-2 p-4 border border-black rounded-lg hover:text-blue-300 transition-colors"> Download Portfolio </div> </a>
-        </div>
+  <div class="relative z-10 max-w-4xl mx-auto px-6 py-20">
+
+    <!-- Eyebrow -->
+    <p class="font-mono text-sm text-site-accent mb-5 tracking-wide">
+      Software Engineer &nbsp;·&nbsp; Copenhagen, Denmark
+    </p>
+
+    <!-- Name -->
+    <h1 class="font-display text-6xl sm:text-7xl lg:text-8xl font-bold text-site-text leading-none mb-6 !mt-0">
+      Dragan<br>Dimitrijevic
+    </h1>
+
+    <!-- Tagline -->
+    <p class="text-site-muted text-lg sm:text-xl max-w-xl leading-relaxed mb-10 !mb-10">
+      Cloud infrastructure &amp; backend engineering.
+      Building reliable systems at scale with AWS and Terraform.
+    </p>
+
+    <!-- Stats row -->
+    <div class="flex flex-wrap items-center gap-x-8 gap-y-4 mb-12">
+      <div class="flex items-baseline gap-1.5">
+        <span class="font-display text-3xl font-bold text-site-text">20+</span>
+        <span class="font-mono text-xs text-site-muted">yrs experience</span>
+      </div>
+      <div class="h-5 w-px bg-site-border hidden sm:block"></div>
+      <div class="flex items-baseline gap-1.5">
+        <span class="font-display text-3xl font-bold text-site-text">11</span>
+        <span class="font-mono text-xs text-site-muted">companies</span>
+      </div>
+      <div class="h-5 w-px bg-site-border hidden sm:block"></div>
+      <div class="flex items-baseline gap-1.5">
+        <span class="font-display text-3xl font-bold text-site-text">44+</span>
+        <span class="font-mono text-xs text-site-muted">terraform modules</span>
+      </div>
     </div>
 
-</div>
+    <!-- CTAs -->
+    <div class="flex flex-wrap items-center gap-3">
+      <a href="/pdf/cv.pdf" class="btn-primary">
+        <i class="fa fa-download text-xs"></i>
+        Download CV
+      </a>
+      <a href="/about" class="btn-outline">
+        About me
+      </a>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}"
+         target="_blank" rel="noopener"
+         class="btn-outline">
+        <i class="fa-brands fa-linkedin text-xs"></i>
+        LinkedIn
+      </a>
+      <a href="https://github.com/{{ site.github_username }}"
+         target="_blank" rel="noopener"
+         class="btn-outline">
+        <i class="fa-brands fa-github text-xs"></i>
+        GitHub
+      </a>
+    </div>
+
+  </div>
+</section>

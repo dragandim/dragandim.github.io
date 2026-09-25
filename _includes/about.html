@@ -1,36 +1,49 @@
 <h1>About Me</h1>
 
-<h3>{{site.data.about.name}}</h3>
-<p class="italic">{{site.data.about.ocupation}}</p>
+<div class="about-grid mt-10">
 
-<div class="flex-col">
+  <!-- Photo column -->
+  <div class="flex flex-col items-center md:items-start gap-6">
+    <img class="about-photo" src="{{ site.data.about.image }}" alt="{{ site.data.about.name }}" />
 
-    <section class="flex items-center justify-center py-6">
-        <img class="" src="{{site.data.about.image}}"/>
-    </section>
+    <!-- Contact links -->
+    <div class="flex flex-col gap-3">
+      <a href="mailto:{{ site.email }}" class="about-contact-link">
+        <i class="fa fa-envelope w-4"></i>
+        {{ site.email }}
+      </a>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}"
+         target="_blank" rel="noopener"
+         class="about-contact-link">
+        <i class="fa-brands fa-linkedin w-4"></i>
+        linkedin.com/in/{{ site.linkedin_username }}
+      </a>
+      <a href="https://github.com/{{ site.github_username }}"
+         target="_blank" rel="noopener"
+         class="about-contact-link">
+        <i class="fa-brands fa-github w-4"></i>
+        github.com/{{ site.github_username }}
+      </a>
+    </div>
+  </div>
 
-    <div>
-        <div class="prose prose-slate w-full max-w-none mx-auto mb-4">
-                {% for paragraph in site.data.about.paragraphs %}
-            <p>{{ paragraph }}</p>
-                {% endfor %}
-        </div>
-
-        <div class="prose lg:prose-lg md:prose-md ">
-            <span class="icon-text pr-2">
-                <span class="icon">
-                    <i class="fa fa-envelope"></i>
-                </span>
-                <span>{{site.email}}</span>
-            </span>
-            <span class="icon-text">
-                <span class="icon">
-                    <i class="fa fa-phone"></i>
-                </span>
-                <span>{{site.data.about.mobile}}</span>
-            </span>
-        </div>
+  <!-- Bio column (spans 2 cols) -->
+  <div class="md:col-span-2">
+    <span class="section-label">{{ site.data.about.ocupation }}</span>
+    <div class="prose prose-site w-full max-w-none">
+      {% for paragraph in site.data.about.paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
     </div>
 
-</div>
+    <div class="flex flex-wrap gap-3 mt-8">
+      <a href="/work-experience" class="btn-primary">View Experience</a>
+      <a href="/projects" class="btn-outline">Projects</a>
+      <a href="/pdf/cv.pdf" class="btn-outline">
+        <i class="fa fa-download text-xs"></i>
+        Download CV
+      </a>
+    </div>
+  </div>
 
+</div>

@@ -14,6 +14,7 @@ skills:
 - PostgresSQL
 roles:
 - Senior Backend Developer
+cv_include: true
 tags:
 - work
 categories:

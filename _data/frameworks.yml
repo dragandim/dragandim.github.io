@@ -1,23 +1,11 @@
-- name: Angular
-  level: 60
-  url: https://angular.io
-  image: /assets/images/angular-svgrepo-com.svg
-- name: Angular Material
-  level: 70
-  url: https://material.angular.io
-  image: /assets/images/angular-material-logo.png
 - name: React
   url: https://react.dev
-  level: 50
+  level: 80
   image: /assets/images/react-logo.svg
-- name: MUI
-  url: https://mui.com
-  level: 50
-  image: /assets/images/react-mui-logo.svg
-- name: Ionic
-  url: https://ionicframework.com
-  level: 60
-  image: /assets/images/ionic-icon-svgrepo-com.svg
+- name: React Router
+  url: https://reactrouter.com
+  level: 80
+  image: /assets/images/react-logo.svg
 - name: Express
   url: https://expressjs.com
   image: /assets/images/express-logo.svg
@@ -26,9 +14,21 @@
   level: 80
   url: https://sailsjs.com
   image: /assets/images/sails-logo.svg
+- name: Angular
+  level: 60
+  url: https://angular.io
+  image: /assets/images/angular-svgrepo-com.svg
+- name: Angular Material
+  level: 70
+  url: https://material.angular.io
+  image: /assets/images/angular-material-logo.png
+- name: Ionic
+  url: https://ionicframework.com
+  level: 60
+  image: /assets/images/ionic-icon-svgrepo-com.svg
 - name: TypeORM
   level: 60
-  url: https://typeorm.io.
+  url: https://typeorm.io
   image: /assets/images/typeorm-logo.svg
 - name: Sequelize
   level: 70
@@ -42,11 +42,11 @@
   level: 70
   url: https://laravel.com
   image: /assets/images/laravel-logo.svg
-- name: Codeigniter
-  level: 60
-  url: https://codeigniter.com
-  image: /assets/images/codeigniter-logo.svg
 - name: Jekyll
   level: 80
   url: https://jekyllrb.com
   image: /assets/images/jekyll-logo.svg
+- name: MUI
+  url: https://mui.com
+  level: 50
+  image: /assets/images/react-mui-logo.svg

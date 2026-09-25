@@ -13,6 +13,7 @@ skills:
 - Nodejs
 - Express
 - ActiveMQ
+cv_include: false
 tags:
 - work
 categories:

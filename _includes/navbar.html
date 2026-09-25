@@ -1,26 +1,24 @@
-{% assign color = "text-indigo-400" %}
-<nav class="navbar">
-    <a href="/"><div class="font-bold">{{site.data.about.name}}</div></a>
-    <div class="flex items-start p-2">
-        <a href="/about">
-            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'About' %}{{ color }}{% endif %}">
-               About
-            </div>
-        </a>
-        <a href="/work-experience">
-            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Work Experience' %}{{ color }}{% endif %}">
-               Work experience
-            </div>
-        </a>
-        <a href="/projects">
-            <div class="mx-2 hover:{{ color }} font-semibold  {% if page.title == 'Project' %}{{ color }}{% endif %}">
-               Projects
-            </div>
-        </a>
-        <a href="/skills">
-            <div class="mx-2 hover:{{ color }} font-semibold {% if page.title == 'Skills' %}{{ color }}{% endif %}"">
-               Skills
-            </div>
-        </a>
+<nav class="site-nav">
+  <div class="site-nav-inner">
+
+    <a href="/" class="site-nav-logo">
+      dragan.dimitrijevic<span class="text-site-accent">_</span>
+    </a>
+
+    <div class="site-nav-links">
+      <a href="/about" class="site-nav-link {% if page.title == 'About' %}active{% endif %}">
+        About
+      </a>
+      <a href="/work-experience" class="site-nav-link {% if page.title == 'Work Experience' %}active{% endif %}">
+        Experience
+      </a>
+      <a href="/projects" class="site-nav-link {% if page.title == 'Project' %}active{% endif %}">
+        Projects
+      </a>
+      <a href="/skills" class="site-nav-link {% if page.title == 'Skills' %}active{% endif %}">
+        Skills
+      </a>
     </div>
+
+  </div>
 </nav>

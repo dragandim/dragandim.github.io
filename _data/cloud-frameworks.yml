@@ -1,12 +1,44 @@
-- name: Serverless
-  level: 90
-  image: /assets/images/serverless-svgrepo-com.svg
-  url: https://www.serverless.com/
-- name: AWS SAM
+- name: Terraform
+  level: 85
+  image: https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg
+  url: https://www.terraform.io
+- name: Terragrunt
   level: 80
-  image: /assets/images/aws-sam-logo.png
-  url: https://aws.amazon.com/serverless/sam
+  image: https://www.vectorlogo.zone/logos/gruntworkio/gruntworkio-icon.svg
+  url: https://terragrunt.gruntwork.io
+- name: OpenTofu
+  level: 75
+  image: https://opentofu.org/img/opentofu_logo.svg
+  url: https://opentofu.org
+- name: GitHub Actions
+  level: 85
+  image: https://avatars.githubusercontent.com/u/44036562
+  url: https://github.com/features/actions
 - name: AWS CDK
   level: 70
   image: /assets/images/cdk-logo.svg
   url: https://aws.amazon.com/cdk/
+- name: AWS SAM
+  level: 80
+  image: /assets/images/aws-sam-logo.png
+  url: https://aws.amazon.com/serverless/sam
+- name: Serverless
+  level: 90
+  image: /assets/images/serverless-svgrepo-com.svg
+  url: https://www.serverless.com/
+- name: FluentBit
+  level: 70
+  image: https://www.vectorlogo.zone/logos/fluentbit/fluentbit-icon.svg
+  url: https://fluentbit.io
+- name: Betterstack
+  level: 70
+  image: https://betterstack.com/assets/favicon/favicon.ico
+  url: https://betterstack.com
+- name: Ory Hydra
+  level: 75
+  image: https://www.ory.sh/images/logo.svg
+  url: https://www.ory.sh/hydra
+- name: Ory Kratos
+  level: 75
+  image: https://www.ory.sh/images/logo.svg
+  url: https://www.ory.sh/kratos

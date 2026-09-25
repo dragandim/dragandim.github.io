@@ -12,6 +12,7 @@ skills:
 - Linux
 - JavaScript
 - HTML5 / CSS3
+cv_include: false
 tags:
 - work
 categories:

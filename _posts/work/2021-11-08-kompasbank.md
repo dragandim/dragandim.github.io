@@ -15,6 +15,7 @@ skills:
 - Angular
 roles:
 - Solution Engineer
+cv_include: true
 tags:
 - work
 categories:

@@ -1,3 +1,4 @@
+# Top 12 shown on skills page (limit: 12 in template)
 - name: AWS
   image: https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
   url: https://aws.amazon.com
@@ -6,18 +7,18 @@
   image: https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg
   level: 90
   url: https://nodejs.org
+- name: TypeScript
+  image: https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg
+  level: 80
+  url: https://www.typescriptlang.org
 - name: JavaScript
   image: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
   level: 90
   url: https://www.javascript.com
-- name: Typescript
-  image: https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg
-  level: 70
-  url: https://www.typescriptlang.org
-- name: PHP
-  image: https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg
-  level: 70
-  url: https://www.php.net
+- name: Terraform
+  image: https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg
+  level: 85
+  url: https://www.terraform.io
 - name: Python
   image: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
   level: 60
@@ -32,8 +33,12 @@
   url: https://www.postgresql.org
 - name: DynamoDB
   image: https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png
-  level: 70
+  level: 80
   url: https://aws.amazon.com/dynamodb
+- name: Git
+  image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
+  level: 80
+  url: https://git-scm.com
 - name: Debian
   image: /assets/images/debian-logo.svg
   level: 80
@@ -41,7 +46,9 @@
 - name: Ubuntu
   image: /assets/images/ubuntu-logo.svg
   level: 80
-  url: https://www.debian.org
-- name: Git
-  image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg
-  level: 80
+  url: https://ubuntu.com
+# Below limit — not shown on skills page but available for CV
+- name: PHP
+  image: https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg
+  level: 70
+  url: https://www.php.net
